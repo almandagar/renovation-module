@@ -1,0 +1,156 @@
+{
+  "country": "Germany",
+  "schema_version": "3.0",
+  "status": "SOURCE_STAGE_MODEL_HYPOTHESES_NOT_OBSERVED",
+  "date": "2026-10-17",
+  "governing_controls": "germany_renovation_pi_diffusion_controls_v03.csv",
+  "depth_order": [
+    "partial",
+    "medium",
+    "deep"
+  ],
+  "strategies": {
+    "DE_PI_CONVENTIONAL": {
+      "depth_start": [
+        50.0,
+        34.0,
+        16.0
+      ],
+      "depth_end": [
+        44.0,
+        34.0,
+        22.0
+      ],
+      "installed_relative_at_adoption": 1.0,
+      "removed_relative_at_adoption": 1.0,
+      "upfront_carbon_relative_at_adoption": 1.0
+    },
+    "DE_PI_INDUSTRIALISING": {
+      "depth_start": [
+        50.0,
+        34.0,
+        16.0
+      ],
+      "depth_end": [
+        40.0,
+        33.0,
+        27.0
+      ],
+      "installed_relative_at_adoption": 1.1,
+      "removed_relative_at_adoption": 0.98,
+      "upfront_carbon_relative_at_adoption": 1.05
+    },
+    "DE_PI_EXEMPLAR": {
+      "depth_start": [
+        50.0,
+        34.0,
+        16.0
+      ],
+      "depth_end": [
+        42.0,
+        33.0,
+        25.0
+      ],
+      "installed_relative_at_adoption": 0.78,
+      "removed_relative_at_adoption": 0.6,
+      "upfront_carbon_relative_at_adoption": 0.76
+    }
+  },
+  "useful_saving_fractions": {
+    "low_savings": [
+      0.07,
+      0.22,
+      0.45
+    ],
+    "central": [
+      0.12,
+      0.35,
+      0.6
+    ],
+    "high_savings": [
+      0.18,
+      0.45,
+      0.7
+    ]
+  },
+  "material_depth_reference_units": [
+    0.6,
+    1.0,
+    1.7
+  ],
+  "material_comparator_stress_bounds": {
+    "DE_PI_CONVENTIONAL": {
+      "installed": [
+        0.9,
+        1.0,
+        1.1
+      ],
+      "removed": [
+        0.85,
+        1.0,
+        1.2
+      ],
+      "upfront": [
+        0.8,
+        1.0,
+        1.2
+      ]
+    },
+    "DE_PI_INDUSTRIALISING": {
+      "installed": [
+        0.85,
+        1.1,
+        1.35
+      ],
+      "removed": [
+        0.7,
+        0.98,
+        1.15
+      ],
+      "upfront": [
+        0.75,
+        1.05,
+        1.4
+      ]
+    },
+    "DE_PI_EXEMPLAR": {
+      "installed": [
+        0.5,
+        0.78,
+        1.2
+      ],
+      "removed": [
+        0.35,
+        0.6,
+        1.2
+      ],
+      "upfront": [
+        0.45,
+        0.76,
+        1.25
+      ]
+    }
+  },
+  "exemplar_process_uptake_pct": {
+    "2025": 0.2,
+    "2026": 0.25,
+    "2027": 0.35,
+    "2030": 0.75,
+    "2035": 1.8
+  },
+  "source_status": "SYNTHETIC_COUNTRY_PI_BOUNDED_UNCALIBRATED",
+  "compatibility_rules": [
+    "Independent whole-country PI alternatives, not additive",
+    "Relative material factors only on adoption share",
+    "Only source-matched useful heat can enter TWh",
+    "No building rate to occupied-heated-area numeric identity"
+  ],
+  "research_comparators": [
+    "Building Stock Observatory 2026",
+    "MODERATE 2020 modelled stock",
+    "PULSE EU capacity and vintage",
+    "2025 conventional vs industrialised facade LCA",
+    "Estonia industrialised district study",
+    "German dena serial project evaluation"
+  ]
+}

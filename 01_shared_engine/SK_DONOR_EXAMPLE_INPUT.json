@@ -1,0 +1,1514 @@
+{
+  "schema": "building-stock/2",
+  "country": "SK",
+  "history_start": "2024-01-01",
+  "forecast_start": "2025-01-01",
+  "end_date": "2026-01-01",
+  "opening_cells": [
+    {
+      "id": "SQUARE_RA_I",
+      "country": "SK",
+      "place_id": "donor_comparison",
+      "archetype_id": null,
+      "fallback_key": "SQUARE_RA_I",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "area_m2": 89.25,
+      "buildings": 1,
+      "dwellings": 1,
+      "area_basis": "conditioned",
+      "state": {
+        "wall": "current",
+        "window": "current",
+        "door": "current",
+        "top": "current",
+        "ground": "current",
+        "cellar": "current"
+      },
+      "surface_inventory": [
+        {
+          "id": "wall",
+          "component": "wall",
+          "area_m2": 97.89084858,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "window",
+          "component": "window",
+          "area_m2": 14.875,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "door",
+          "component": "door",
+          "area_m2": 2,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "top",
+          "component": "top",
+          "area_m2": 105,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "ceiling_under_attic",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "ground",
+          "component": "ground",
+          "area_m2": 78.75,
+          "adjacent": "ground",
+          "area_basis": "floor_to_ground",
+          "boundary_factor": 0.55,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "cellar",
+          "component": "cellar",
+          "area_m2": 26.25,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "floor_to_unheated",
+          "boundary_factor": 0.6,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        }
+      ],
+      "surface_inventory_scope": "complete_thermal_boundary",
+      "heating": {
+        "carrier": "USEFUL_HEAT_PROXY",
+        "useful_per_final": 1
+      },
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "area_assumption": "Workbook model_served_net_m2 adopted as conditional conditioned-area proxy; not measured."
+    },
+    {
+      "id": "SQUARE_RA_II",
+      "country": "SK",
+      "place_id": "donor_comparison",
+      "archetype_id": null,
+      "fallback_key": "SQUARE_RA_II",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "area_m2": 89.25,
+      "buildings": 1,
+      "dwellings": 1,
+      "area_basis": "conditioned",
+      "state": {
+        "wall": "current",
+        "window": "current",
+        "door": "current",
+        "top": "current",
+        "ground": "current",
+        "cellar": "current"
+      },
+      "surface_inventory": [
+        {
+          "id": "wall",
+          "component": "wall",
+          "area_m2": 97.89084858,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "window",
+          "component": "window",
+          "area_m2": 14.875,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "door",
+          "component": "door",
+          "area_m2": 2,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "top",
+          "component": "top",
+          "area_m2": 105,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "ceiling_under_attic",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "ground",
+          "component": "ground",
+          "area_m2": 78.75,
+          "adjacent": "ground",
+          "area_basis": "floor_to_ground",
+          "boundary_factor": 0.55,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "cellar",
+          "component": "cellar",
+          "area_m2": 26.25,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "floor_to_unheated",
+          "boundary_factor": 0.6,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        }
+      ],
+      "surface_inventory_scope": "complete_thermal_boundary",
+      "heating": {
+        "carrier": "USEFUL_HEAT_PROXY",
+        "useful_per_final": 1
+      },
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "area_assumption": "Workbook model_served_net_m2 adopted as conditional conditioned-area proxy; not measured."
+    },
+    {
+      "id": "SQUARE_RA_III",
+      "country": "SK",
+      "place_id": "donor_comparison",
+      "archetype_id": null,
+      "fallback_key": "SQUARE_RA_III",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "area_m2": 89.25,
+      "buildings": 1,
+      "dwellings": 1,
+      "area_basis": "conditioned",
+      "state": {
+        "wall": "current",
+        "window": "current",
+        "door": "current",
+        "top": "current",
+        "ground": "current",
+        "cellar": "current"
+      },
+      "surface_inventory": [
+        {
+          "id": "wall",
+          "component": "wall",
+          "area_m2": 97.89084858,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "window",
+          "component": "window",
+          "area_m2": 14.875,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "door",
+          "component": "door",
+          "area_m2": 2,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "top",
+          "component": "top",
+          "area_m2": 105,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "ceiling_under_attic",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "ground",
+          "component": "ground",
+          "area_m2": 78.75,
+          "adjacent": "ground",
+          "area_basis": "floor_to_ground",
+          "boundary_factor": 0.55,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "cellar",
+          "component": "cellar",
+          "area_m2": 26.25,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "floor_to_unheated",
+          "boundary_factor": 0.6,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        }
+      ],
+      "surface_inventory_scope": "complete_thermal_boundary",
+      "heating": {
+        "carrier": "USEFUL_HEAT_PROXY",
+        "useful_per_final": 1
+      },
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "area_assumption": "Workbook model_served_net_m2 adopted as conditional conditioned-area proxy; not measured."
+    },
+    {
+      "id": "CUBE_RA_I",
+      "country": "SK",
+      "place_id": "donor_comparison",
+      "archetype_id": null,
+      "fallback_key": "CUBE_RA_I",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "area_m2": 170,
+      "buildings": 1,
+      "dwellings": 1,
+      "area_basis": "conditioned",
+      "state": {
+        "wall": "current",
+        "window": "current",
+        "door": "current",
+        "top": "current",
+        "ground": "current",
+        "cellar": "current"
+      },
+      "surface_inventory": [
+        {
+          "id": "wall",
+          "component": "wall",
+          "area_m2": 196.5,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "window",
+          "component": "window",
+          "area_m2": 25.5,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "door",
+          "component": "door",
+          "area_m2": 2,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "top",
+          "component": "top",
+          "area_m2": 100,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "ground",
+          "component": "ground",
+          "area_m2": 0,
+          "adjacent": "ground",
+          "area_basis": "floor_to_ground",
+          "boundary_factor": 0.55,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "cellar",
+          "component": "cellar",
+          "area_m2": 100,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "floor_to_unheated",
+          "boundary_factor": 0.6,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        }
+      ],
+      "surface_inventory_scope": "complete_thermal_boundary",
+      "heating": {
+        "carrier": "USEFUL_HEAT_PROXY",
+        "useful_per_final": 1
+      },
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "area_assumption": "Workbook model_served_net_m2 adopted as conditional conditioned-area proxy; not measured."
+    },
+    {
+      "id": "CUBE_RA_II",
+      "country": "SK",
+      "place_id": "donor_comparison",
+      "archetype_id": null,
+      "fallback_key": "CUBE_RA_II",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "area_m2": 170,
+      "buildings": 1,
+      "dwellings": 1,
+      "area_basis": "conditioned",
+      "state": {
+        "wall": "current",
+        "window": "current",
+        "door": "current",
+        "top": "current",
+        "ground": "current",
+        "cellar": "current"
+      },
+      "surface_inventory": [
+        {
+          "id": "wall",
+          "component": "wall",
+          "area_m2": 196.5,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "window",
+          "component": "window",
+          "area_m2": 25.5,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "door",
+          "component": "door",
+          "area_m2": 2,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "top",
+          "component": "top",
+          "area_m2": 100,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "ground",
+          "component": "ground",
+          "area_m2": 0,
+          "adjacent": "ground",
+          "area_basis": "floor_to_ground",
+          "boundary_factor": 0.55,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "cellar",
+          "component": "cellar",
+          "area_m2": 100,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "floor_to_unheated",
+          "boundary_factor": 0.6,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        }
+      ],
+      "surface_inventory_scope": "complete_thermal_boundary",
+      "heating": {
+        "carrier": "USEFUL_HEAT_PROXY",
+        "useful_per_final": 1
+      },
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "area_assumption": "Workbook model_served_net_m2 adopted as conditional conditioned-area proxy; not measured."
+    },
+    {
+      "id": "CUBE_RA_III",
+      "country": "SK",
+      "place_id": "donor_comparison",
+      "archetype_id": null,
+      "fallback_key": "CUBE_RA_III",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "area_m2": 170,
+      "buildings": 1,
+      "dwellings": 1,
+      "area_basis": "conditioned",
+      "state": {
+        "wall": "current",
+        "window": "current",
+        "door": "current",
+        "top": "current",
+        "ground": "current",
+        "cellar": "current"
+      },
+      "surface_inventory": [
+        {
+          "id": "wall",
+          "component": "wall",
+          "area_m2": 196.5,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "window",
+          "component": "window",
+          "area_m2": 25.5,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "door",
+          "component": "door",
+          "area_m2": 2,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "top",
+          "component": "top",
+          "area_m2": 100,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "ground",
+          "component": "ground",
+          "area_m2": 0,
+          "adjacent": "ground",
+          "area_basis": "floor_to_ground",
+          "boundary_factor": 0.55,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "cellar",
+          "component": "cellar",
+          "area_m2": 100,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "floor_to_unheated",
+          "boundary_factor": 0.6,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        }
+      ],
+      "surface_inventory_scope": "complete_thermal_boundary",
+      "heating": {
+        "carrier": "USEFUL_HEAT_PROXY",
+        "useful_per_final": 1
+      },
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "area_assumption": "Workbook model_served_net_m2 adopted as conditional conditioned-area proxy; not measured."
+    },
+    {
+      "id": "ORAVA_RA_I",
+      "country": "SK",
+      "place_id": "donor_comparison",
+      "archetype_id": null,
+      "fallback_key": "ORAVA_RA_I",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "area_m2": 260.19,
+      "buildings": 1,
+      "dwellings": 1,
+      "area_basis": "conditioned",
+      "state": {
+        "wall": "current",
+        "window": "current",
+        "door": "current",
+        "top": "current",
+        "ground": "current",
+        "cellar": "current"
+      },
+      "surface_inventory": [
+        {
+          "id": "wall",
+          "component": "wall",
+          "area_m2": 202.2158553,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "window",
+          "component": "window",
+          "area_m2": 34,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "door",
+          "component": "door",
+          "area_m2": 2,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "top",
+          "component": "top",
+          "area_m2": 130.11,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "ceiling_under_attic",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "ground",
+          "component": "ground",
+          "area_m2": 130.11,
+          "adjacent": "ground",
+          "area_basis": "floor_to_ground",
+          "boundary_factor": 0.55,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "cellar",
+          "component": "cellar",
+          "area_m2": 0,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "floor_to_unheated",
+          "boundary_factor": 0,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        }
+      ],
+      "surface_inventory_scope": "complete_thermal_boundary",
+      "heating": {
+        "carrier": "USEFUL_HEAT_PROXY",
+        "useful_per_final": 1
+      },
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "area_assumption": "Workbook model_served_net_m2 adopted as conditional conditioned-area proxy; not measured."
+    },
+    {
+      "id": "ORAVA_RA_II",
+      "country": "SK",
+      "place_id": "donor_comparison",
+      "archetype_id": null,
+      "fallback_key": "ORAVA_RA_II",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "area_m2": 260.19,
+      "buildings": 1,
+      "dwellings": 1,
+      "area_basis": "conditioned",
+      "state": {
+        "wall": "current",
+        "window": "current",
+        "door": "current",
+        "top": "current",
+        "ground": "current",
+        "cellar": "current"
+      },
+      "surface_inventory": [
+        {
+          "id": "wall",
+          "component": "wall",
+          "area_m2": 202.2158553,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "window",
+          "component": "window",
+          "area_m2": 34,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "door",
+          "component": "door",
+          "area_m2": 2,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "top",
+          "component": "top",
+          "area_m2": 130.11,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "ceiling_under_attic",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "ground",
+          "component": "ground",
+          "area_m2": 130.11,
+          "adjacent": "ground",
+          "area_basis": "floor_to_ground",
+          "boundary_factor": 0.55,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "cellar",
+          "component": "cellar",
+          "area_m2": 0,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "floor_to_unheated",
+          "boundary_factor": 0,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        }
+      ],
+      "surface_inventory_scope": "complete_thermal_boundary",
+      "heating": {
+        "carrier": "USEFUL_HEAT_PROXY",
+        "useful_per_final": 1
+      },
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "area_assumption": "Workbook model_served_net_m2 adopted as conditional conditioned-area proxy; not measured."
+    },
+    {
+      "id": "ORAVA_RA_III",
+      "country": "SK",
+      "place_id": "donor_comparison",
+      "archetype_id": null,
+      "fallback_key": "ORAVA_RA_III",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "area_m2": 260.19,
+      "buildings": 1,
+      "dwellings": 1,
+      "area_basis": "conditioned",
+      "state": {
+        "wall": "current",
+        "window": "current",
+        "door": "current",
+        "top": "current",
+        "ground": "current",
+        "cellar": "current"
+      },
+      "surface_inventory": [
+        {
+          "id": "wall",
+          "component": "wall",
+          "area_m2": 202.2158553,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "window",
+          "component": "window",
+          "area_m2": 34,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "door",
+          "component": "door",
+          "area_m2": 2,
+          "adjacent": "exterior",
+          "area_basis": "surface_net",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "top",
+          "component": "top",
+          "area_m2": 130.11,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "ceiling_under_attic",
+          "boundary_factor": 1,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "ground",
+          "component": "ground",
+          "area_m2": 130.11,
+          "adjacent": "ground",
+          "area_basis": "floor_to_ground",
+          "boundary_factor": 0.55,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        },
+        {
+          "id": "cellar",
+          "component": "cellar",
+          "area_m2": 0,
+          "adjacent": "unheated_enclosure",
+          "area_basis": "floor_to_unheated",
+          "boundary_factor": 0,
+          "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+          "assumption_status": "MODEL_PRIOR"
+        }
+      ],
+      "surface_inventory_scope": "complete_thermal_boundary",
+      "heating": {
+        "carrier": "USEFUL_HEAT_PROXY",
+        "useful_per_final": 1
+      },
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "area_assumption": "Workbook model_served_net_m2 adopted as conditional conditioned-area proxy; not measured."
+    }
+  ],
+  "library": {
+    "schema": "physical-archetype-library/1",
+    "archetypes": {
+      "SQUARE_RA_I": {
+        "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+        "construction_period": [
+          1961,
+          1980
+        ],
+        "geometry": {
+          "wall": 1.0968162305882352,
+          "window": 0.16666666666666666,
+          "door": 0.022408963585434174,
+          "top": 1.1764705882352942,
+          "ground": 0.8823529411764706,
+          "cellar": 0.29411764705882354
+        },
+        "components": {
+          "wall": {
+            "current": {
+              "u_w_m2k": 1.23,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "window": {
+            "current": {
+              "u_w_m2k": 2,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "door": {
+            "current": {
+              "u_w_m2k": 2,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "top": {
+            "current": {
+              "u_w_m2k": 1,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "ground": {
+            "current": {
+              "u_w_m2k": 0.8,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "cellar": {
+            "current": {
+              "u_w_m2k": 0.85,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          }
+        },
+        "ventilation_w_k_m2": 0.5380941176470587,
+        "bridges_w_k_m2": 0.0896358543417367
+      },
+      "SQUARE_RA_II": {
+        "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+        "construction_period": [
+          1961,
+          1980
+        ],
+        "geometry": {
+          "wall": 1.0968162305882352,
+          "window": 0.16666666666666666,
+          "door": 0.022408963585434174,
+          "top": 1.1764705882352942,
+          "ground": 0.8823529411764706,
+          "cellar": 0.29411764705882354
+        },
+        "components": {
+          "wall": {
+            "current": {
+              "u_w_m2k": 0.46203045685279187,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "window": {
+            "current": {
+              "u_w_m2k": 1.6,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "door": {
+            "current": {
+              "u_w_m2k": 1.5,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "top": {
+            "current": {
+              "u_w_m2k": 0.21052631578947367,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "ground": {
+            "current": {
+              "u_w_m2k": 0.8,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "cellar": {
+            "current": {
+              "u_w_m2k": 0.85,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          }
+        },
+        "ventilation_w_k_m2": 0.4891764705882354,
+        "bridges_w_k_m2": 0.0784313725490196
+      },
+      "SQUARE_RA_III": {
+        "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+        "construction_period": [
+          1961,
+          1980
+        ],
+        "geometry": {
+          "wall": 1.0968162305882352,
+          "window": 0.16666666666666666,
+          "door": 0.022408963585434174,
+          "top": 1.1764705882352942,
+          "ground": 0.8823529411764706,
+          "cellar": 0.29411764705882354
+        },
+        "components": {
+          "wall": {
+            "current": {
+              "u_w_m2k": 0.28443749999999995,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "window": {
+            "current": {
+              "u_w_m2k": 0.95,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "door": {
+            "current": {
+              "u_w_m2k": 1.1,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "top": {
+            "current": {
+              "u_w_m2k": 0.16666666666666666,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "ground": {
+            "current": {
+              "u_w_m2k": 0.8,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "cellar": {
+            "current": {
+              "u_w_m2k": 0.85,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          }
+        },
+        "ventilation_w_k_m2": 0.4891764705882354,
+        "bridges_w_k_m2": 0.0784313725490196
+      },
+      "CUBE_RA_I": {
+        "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+        "construction_period": [
+          1961,
+          1980
+        ],
+        "geometry": {
+          "wall": 1.1558823529411764,
+          "window": 0.15,
+          "door": 0.011764705882352941,
+          "top": 0.5882352941176471,
+          "ground": 0.0,
+          "cellar": 0.5882352941176471
+        },
+        "components": {
+          "wall": {
+            "current": {
+              "u_w_m2k": 1.5,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "window": {
+            "current": {
+              "u_w_m2k": 2,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "door": {
+            "current": {
+              "u_w_m2k": 2,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "top": {
+            "current": {
+              "u_w_m2k": 1.05,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "ground": {
+            "current": {
+              "u_w_m2k": 0,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "cellar": {
+            "current": {
+              "u_w_m2k": 0.85,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          }
+        },
+        "ventilation_w_k_m2": 0.5380941176470588,
+        "bridges_w_k_m2": 0.07058823529411765
+      },
+      "CUBE_RA_II": {
+        "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+        "construction_period": [
+          1961,
+          1980
+        ],
+        "geometry": {
+          "wall": 1.1558823529411764,
+          "window": 0.15,
+          "door": 0.011764705882352941,
+          "top": 0.5882352941176471,
+          "ground": 0.0,
+          "cellar": 0.5882352941176471
+        },
+        "components": {
+          "wall": {
+            "current": {
+              "u_w_m2k": 0.49553571428571425,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "window": {
+            "current": {
+              "u_w_m2k": 1.6,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "door": {
+            "current": {
+              "u_w_m2k": 1.5,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "top": {
+            "current": {
+              "u_w_m2k": 0.21265822784810126,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "ground": {
+            "current": {
+              "u_w_m2k": 0,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "cellar": {
+            "current": {
+              "u_w_m2k": 0.85,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          }
+        },
+        "ventilation_w_k_m2": 0.48917647058823527,
+        "bridges_w_k_m2": 0.058823529411764705
+      },
+      "CUBE_RA_III": {
+        "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+        "construction_period": [
+          1961,
+          1980
+        ],
+        "geometry": {
+          "wall": 1.1558823529411764,
+          "window": 0.15,
+          "door": 0.011764705882352941,
+          "top": 0.5882352941176471,
+          "ground": 0.0,
+          "cellar": 0.5882352941176471
+        },
+        "components": {
+          "wall": {
+            "current": {
+              "u_w_m2k": 0.29679144385026734,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "window": {
+            "current": {
+              "u_w_m2k": 0.95,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "door": {
+            "current": {
+              "u_w_m2k": 1.1,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "top": {
+            "current": {
+              "u_w_m2k": 0.16799999999999998,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "ground": {
+            "current": {
+              "u_w_m2k": 0,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "cellar": {
+            "current": {
+              "u_w_m2k": 0.85,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          }
+        },
+        "ventilation_w_k_m2": 0.48917647058823527,
+        "bridges_w_k_m2": 0.058823529411764705
+      },
+      "ORAVA_RA_I": {
+        "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+        "construction_period": [
+          1961,
+          1980
+        ],
+        "geometry": {
+          "wall": 0.7771853464775741,
+          "window": 0.13067373842192245,
+          "door": 0.007686690495407203,
+          "top": 0.5000576501787156,
+          "ground": 0.5000576501787156,
+          "cellar": 0.0
+        },
+        "components": {
+          "wall": {
+            "current": {
+              "u_w_m2k": 0.7481296758104737,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "window": {
+            "current": {
+              "u_w_m2k": 2,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "door": {
+            "current": {
+              "u_w_m2k": 2.4,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "top": {
+            "current": {
+              "u_w_m2k": 1,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "ground": {
+            "current": {
+              "u_w_m2k": 0.8,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "cellar": {
+            "current": {
+              "u_w_m2k": 0,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          }
+        },
+        "ventilation_w_k_m2": 0.27,
+        "bridges_w_k_m2": 0.12
+      },
+      "ORAVA_RA_II": {
+        "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+        "construction_period": [
+          1961,
+          1980
+        ],
+        "geometry": {
+          "wall": 0.7771853464775741,
+          "window": 0.13067373842192245,
+          "door": 0.007686690495407203,
+          "top": 0.5000576501787156,
+          "ground": 0.5000576501787156,
+          "cellar": 0.0
+        },
+        "components": {
+          "wall": {
+            "current": {
+              "u_w_m2k": 0.3720213158159332,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "window": {
+            "current": {
+              "u_w_m2k": 1.6,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "door": {
+            "current": {
+              "u_w_m2k": 1.5,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "top": {
+            "current": {
+              "u_w_m2k": 0.21052631578947367,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "ground": {
+            "current": {
+              "u_w_m2k": 0.8,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "cellar": {
+            "current": {
+              "u_w_m2k": 0,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          }
+        },
+        "ventilation_w_k_m2": 0.25,
+        "bridges_w_k_m2": 0.1
+      },
+      "ORAVA_RA_III": {
+        "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+        "construction_period": [
+          1961,
+          1980
+        ],
+        "geometry": {
+          "wall": 0.7771853464775741,
+          "window": 0.13067373842192245,
+          "door": 0.007686690495407203,
+          "top": 0.5000576501787156,
+          "ground": 0.5000576501787156,
+          "cellar": 0.0
+        },
+        "components": {
+          "wall": {
+            "current": {
+              "u_w_m2k": 0.24756339630216115,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "window": {
+            "current": {
+              "u_w_m2k": 0.95,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "door": {
+            "current": {
+              "u_w_m2k": 1.1,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "top": {
+            "current": {
+              "u_w_m2k": 0.16666666666666666,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "ground": {
+            "current": {
+              "u_w_m2k": 0.8,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          },
+          "cellar": {
+            "current": {
+              "u_w_m2k": 0,
+              "source_ref": "data/sk_fh_donor_snapshot_v36.json"
+            }
+          }
+        },
+        "ventilation_w_k_m2": 0.25,
+        "bridges_w_k_m2": 0.1
+      }
+    },
+    "packages": {},
+    "newbuild_designs": {}
+  },
+  "archetype_fallbacks": {
+    "SQUARE_RA_I": {
+      "archetype_id": "SQUARE_RA_I",
+      "country": "SK",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "compatibility_basis": "Explicit form and current RA-state scenario; no inferred national prevalence."
+    },
+    "SQUARE_RA_II": {
+      "archetype_id": "SQUARE_RA_II",
+      "country": "SK",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "compatibility_basis": "Explicit form and current RA-state scenario; no inferred national prevalence."
+    },
+    "SQUARE_RA_III": {
+      "archetype_id": "SQUARE_RA_III",
+      "country": "SK",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "compatibility_basis": "Explicit form and current RA-state scenario; no inferred national prevalence."
+    },
+    "CUBE_RA_I": {
+      "archetype_id": "CUBE_RA_I",
+      "country": "SK",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "compatibility_basis": "Explicit form and current RA-state scenario; no inferred national prevalence."
+    },
+    "CUBE_RA_II": {
+      "archetype_id": "CUBE_RA_II",
+      "country": "SK",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "compatibility_basis": "Explicit form and current RA-state scenario; no inferred national prevalence."
+    },
+    "CUBE_RA_III": {
+      "archetype_id": "CUBE_RA_III",
+      "country": "SK",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "compatibility_basis": "Explicit form and current RA-state scenario; no inferred national prevalence."
+    },
+    "ORAVA_RA_I": {
+      "archetype_id": "ORAVA_RA_I",
+      "country": "SK",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "compatibility_basis": "Explicit form and current RA-state scenario; no inferred national prevalence."
+    },
+    "ORAVA_RA_II": {
+      "archetype_id": "ORAVA_RA_II",
+      "country": "SK",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "compatibility_basis": "Explicit form and current RA-state scenario; no inferred national prevalence."
+    },
+    "ORAVA_RA_III": {
+      "archetype_id": "ORAVA_RA_III",
+      "country": "SK",
+      "use": "residential",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "compatibility_basis": "Explicit form and current RA-state scenario; no inferred national prevalence."
+    }
+  },
+  "historical_events": [],
+  "scenarios": [
+    {
+      "id": "SK_DONOR_SCREEN",
+      "pathway": "PI",
+      "timing": "central",
+      "events": []
+    }
+  ],
+  "weather": {
+    "donor_comparison": {
+      "reference": [
+        {
+          "id": "3000_HDD_zero_gain_screen",
+          "hours": 6000,
+          "outdoor_c": 8,
+          "indoor_c": 20,
+          "usable_gains_w_m2": 0
+        }
+      ]
+    }
+  },
+  "research_opening_snapshot": {
+    "schema": "research-stock-snapshot/1",
+    "country": "SK",
+    "as_of_date": "2024-01-01",
+    "stock_boundary": "NINE_HYPOTHETICAL_DONOR_EXAMPLES_NOT_NATIONAL_STOCK",
+    "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+    "state_basis": "Existing workbook conditional RA states; no historical work inferred",
+    "uncertainty_ref": "data/sk_fh_donor_snapshot_v36.json",
+    "evidence_class": "CONDITIONAL_MODEL_PRIOR_NOT_OBSERVED",
+    "population_totals": {
+      "area_m2": 1558.32,
+      "buildings": 9,
+      "dwellings": 9
+    }
+  },
+  "stock_controls": {
+    "source_ref": "EXAMPLE_DESIGN_ONE_BUILDING_PER_DONOR_NOT_EMPIRICAL_COUNTS",
+    "as_of_date": "2024-01-01",
+    "totals": {
+      "area_m2": 1558.32,
+      "buildings": 9,
+      "dwellings": 9
+    }
+  },
+  "archetype_evidence_review": [
+    {
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "decision": "USED",
+      "reason": "Existing component geometry/U/airflow/bridge priors used directly, not fitted to workbook heat intensities."
+    },
+    {
+      "source_ref": "data/sk_fh_donor_snapshot_v36.json",
+      "decision": "PROXY_ONLY",
+      "reason": "189/120/62 effective intensities cannot specify components; excluded from component library."
+    }
+  ],
+  "limitations": [
+    "Hypothetical counts, not archetype shares.",
+    "All nine RA states are alternatives, not an observed nine-building neighbourhood.",
+    "Zero gains screen differs from workbook net-loss factors .75/.76; compare H, not annual heat equality.",
+    "USEFUL_HEAT_PROXY is not observed carrier use.",
+    "No material/task-hour or delivery inference."
+  ]
+}

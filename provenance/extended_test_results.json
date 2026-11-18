@@ -1,0 +1,50 @@
+{
+  "suite": "extended-available",
+  "tests_run": 230,
+  "failures": 0,
+  "errors": 0,
+  "skips": 29,
+  "modules": [
+    "test_archetype_integration",
+    "test_cohort_engine",
+    "test_pas_newbuild_reallocation",
+    "test_pas_essential_timing_v35",
+    "test_surface_state_integration",
+    "test_airflow_pressure",
+    "test_airtightness_research",
+    "test_weather_living_exposure",
+    "test_weather_urban_interfaces",
+    "test_city_physical_tests",
+    "test_panel_spatial_integration"
+  ],
+  "optional_modules_not_run": {
+    "test_local_completion_evidence": [
+      "file:SK_KE_V08_OBSERVED_COMPLETION_DECISIONS.json"
+    ],
+    "test_panel_dated_delivery": [
+      "module:sk_panel_dated_country_input"
+    ],
+    "test_panel_event_scheduler": [
+      "module:sk_kosice_panel_event_bridge"
+    ],
+    "test_panel_floor_policy": [
+      "module:sk_kosice_panel_event_bridge"
+    ],
+    "test_panel_ra_physics": [
+      "module:sk_kosice_panel_ra_country_input"
+    ],
+    "test_renovation_geographic_reconciliation": [
+      "module:sk_2021_heating_joint_source_bridge"
+    ],
+    "test_sk_ke_site_identity_v09": [
+      "file:SK_KE_V08_Observed_Decisions_SourceLedger.json"
+    ],
+    "test_real_pecd_living_catalogue": [
+      "pecd:weather catalogue"
+    ],
+    "test_urbclim_city_exposure": [
+      "module:rasterio"
+    ]
+  },
+  "empirical_validation": false
+}

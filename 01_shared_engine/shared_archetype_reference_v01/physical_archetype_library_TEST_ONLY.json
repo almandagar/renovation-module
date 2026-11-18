@@ -1,0 +1,159 @@
+{
+  "schema": "physical-archetype-library/1",
+  "archetypes": {
+    "cube": {
+      "source_ref": "SYNTHETIC_CUBE_NOT_ORAVA_OBSERVATION",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "geometry": {
+        "wall": 1.0,
+        "roof": 0.5,
+        "window": 0.2,
+        "floor": 0.5
+      },
+      "components": {
+        "wall": {
+          "original": {
+            "u_w_m2k": 1.6,
+            "source_ref": "SYNTHETIC_ENGINEERING_TEST"
+          },
+          "improved": {
+            "u_w_m2k": 0.15,
+            "source_ref": "SYNTHETIC_ENGINEERING_TEST",
+            "installed_kg_m2": {
+              "insulation": 10
+            },
+            "removed_kg_m2": {
+              "mixed": 2
+            },
+            "task_hours_m2": {
+              "installer": 1
+            }
+          }
+        },
+        "roof": {
+          "original": {
+            "u_w_m2k": 1.8,
+            "source_ref": "SYNTHETIC_ENGINEERING_TEST"
+          },
+          "improved": {
+            "u_w_m2k": 0.15,
+            "source_ref": "SYNTHETIC_ENGINEERING_TEST",
+            "installed_kg_m2": {
+              "insulation": 10
+            },
+            "removed_kg_m2": {
+              "mixed": 2
+            },
+            "task_hours_m2": {
+              "installer": 1
+            }
+          }
+        },
+        "window": {
+          "original": {
+            "u_w_m2k": 2.8,
+            "source_ref": "SYNTHETIC_ENGINEERING_TEST"
+          },
+          "improved": {
+            "u_w_m2k": 0.7,
+            "source_ref": "SYNTHETIC_ENGINEERING_TEST",
+            "installed_kg_m2": {
+              "insulation": 10
+            },
+            "removed_kg_m2": {
+              "mixed": 2
+            },
+            "task_hours_m2": {
+              "installer": 1
+            }
+          }
+        },
+        "floor": {
+          "original": {
+            "u_w_m2k": 1.2,
+            "source_ref": "SYNTHETIC_ENGINEERING_TEST"
+          },
+          "improved": {
+            "u_w_m2k": 0.15,
+            "source_ref": "SYNTHETIC_ENGINEERING_TEST",
+            "installed_kg_m2": {
+              "insulation": 10
+            },
+            "removed_kg_m2": {
+              "mixed": 2
+            },
+            "task_hours_m2": {
+              "installer": 1
+            }
+          }
+        }
+      },
+      "ventilation_w_k_m2": 0.25,
+      "bridges_w_k_m2": 0.05
+    }
+  },
+  "packages": {
+    "roof_windows": {
+      "targets": {
+        "roof": "improved",
+        "window": "improved"
+      }
+    },
+    "walls_floor": {
+      "targets": {
+        "wall": "improved",
+        "floor": "improved"
+      }
+    },
+    "deep": {
+      "targets": {
+        "wall": "improved",
+        "roof": "improved",
+        "window": "improved",
+        "floor": "improved"
+      }
+    }
+  },
+  "newbuild_designs": {
+    "efficient": {
+      "archetype_id": "cube",
+      "state": {
+        "wall": "improved",
+        "roof": "improved",
+        "window": "improved",
+        "floor": "improved"
+      },
+      "heating": {
+        "carrier": "HP_ELECTRICITY",
+        "useful_per_final": 4
+      },
+      "installed_kg_m2": {
+        "concrete": 100
+      },
+      "task_hours": {
+        "installer": 2
+      },
+      "installed_kg": {
+        "concrete": 100
+      },
+      "metrics": {
+        "onsite_fossil_co2": 0
+      },
+      "wlc_method_ref": "SYNTHETIC_TEST_NOT_REGULATORY_ASSESSMENT",
+      "assessment_years": 50,
+      "wlc_kgco2e_m2": {
+        "A1_A3": 100,
+        "A4_A5": 10,
+        "B1_B3_B5": 0,
+        "B7": 0,
+        "B4": 10,
+        "B6": 30,
+        "C1_C4": 10,
+        "D": -15
+      }
+    }
+  }
+}

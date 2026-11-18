@@ -1,0 +1,545 @@
+{
+  "schema": "building-stock/2",
+  "country": "TEST",
+  "status": "SOFTWARE_ACCEPTANCE_ONLY",
+  "history_start": "2011-01-01",
+  "forecast_start": "2025-01-01",
+  "end_date": "2036-01-01",
+  "opening_cells": [
+    {
+      "id": "old_cube_cohort",
+      "country": "TEST",
+      "place_id": "district",
+      "archetype_id": "cube",
+      "construction_period": [
+        1961,
+        1980
+      ],
+      "area_m2": 1000.0,
+      "buildings": 10.0,
+      "dwellings": 10.0,
+      "state": {
+        "wall": "original",
+        "roof": "original",
+        "window": "original",
+        "floor": "original"
+      },
+      "heating": {
+        "carrier": "GAS",
+        "useful_per_final": 0.85
+      },
+      "source_ref": "SYNTHETIC"
+    }
+  ],
+  "library": {
+    "schema": "physical-archetype-library/1",
+    "archetypes": {
+      "cube": {
+        "source_ref": "SYNTHETIC_CUBE_NOT_ORAVA_OBSERVATION",
+        "construction_period": [
+          1961,
+          1980
+        ],
+        "geometry": {
+          "wall": 1.0,
+          "roof": 0.5,
+          "window": 0.2,
+          "floor": 0.5
+        },
+        "components": {
+          "wall": {
+            "original": {
+              "u_w_m2k": 1.6,
+              "source_ref": "SYNTHETIC_ENGINEERING_TEST"
+            },
+            "improved": {
+              "u_w_m2k": 0.15,
+              "source_ref": "SYNTHETIC_ENGINEERING_TEST",
+              "installed_kg_m2": {
+                "insulation": 10
+              },
+              "removed_kg_m2": {
+                "mixed": 2
+              },
+              "task_hours_m2": {
+                "installer": 1
+              }
+            }
+          },
+          "roof": {
+            "original": {
+              "u_w_m2k": 1.8,
+              "source_ref": "SYNTHETIC_ENGINEERING_TEST"
+            },
+            "improved": {
+              "u_w_m2k": 0.15,
+              "source_ref": "SYNTHETIC_ENGINEERING_TEST",
+              "installed_kg_m2": {
+                "insulation": 10
+              },
+              "removed_kg_m2": {
+                "mixed": 2
+              },
+              "task_hours_m2": {
+                "installer": 1
+              }
+            }
+          },
+          "window": {
+            "original": {
+              "u_w_m2k": 2.8,
+              "source_ref": "SYNTHETIC_ENGINEERING_TEST"
+            },
+            "improved": {
+              "u_w_m2k": 0.7,
+              "source_ref": "SYNTHETIC_ENGINEERING_TEST",
+              "installed_kg_m2": {
+                "insulation": 10
+              },
+              "removed_kg_m2": {
+                "mixed": 2
+              },
+              "task_hours_m2": {
+                "installer": 1
+              }
+            }
+          },
+          "floor": {
+            "original": {
+              "u_w_m2k": 1.2,
+              "source_ref": "SYNTHETIC_ENGINEERING_TEST"
+            },
+            "improved": {
+              "u_w_m2k": 0.15,
+              "source_ref": "SYNTHETIC_ENGINEERING_TEST",
+              "installed_kg_m2": {
+                "insulation": 10
+              },
+              "removed_kg_m2": {
+                "mixed": 2
+              },
+              "task_hours_m2": {
+                "installer": 1
+              }
+            }
+          }
+        },
+        "ventilation_w_k_m2": 0.25,
+        "bridges_w_k_m2": 0.05
+      }
+    },
+    "packages": {
+      "roof_windows": {
+        "targets": {
+          "roof": "improved",
+          "window": "improved"
+        }
+      },
+      "walls_floor": {
+        "targets": {
+          "wall": "improved",
+          "floor": "improved"
+        }
+      },
+      "deep": {
+        "targets": {
+          "wall": "improved",
+          "roof": "improved",
+          "window": "improved",
+          "floor": "improved"
+        }
+      }
+    },
+    "newbuild_designs": {
+      "efficient": {
+        "archetype_id": "cube",
+        "state": {
+          "wall": "improved",
+          "roof": "improved",
+          "window": "improved",
+          "floor": "improved"
+        },
+        "heating": {
+          "carrier": "HP_ELECTRICITY",
+          "useful_per_final": 4
+        },
+        "installed_kg_m2": {
+          "concrete": 100
+        },
+        "task_hours": {
+          "installer": 2
+        },
+        "installed_kg": {
+          "concrete": 100
+        },
+        "metrics": {
+          "onsite_fossil_co2": 0
+        },
+        "wlc_method_ref": "SYNTHETIC_TEST_NOT_REGULATORY_ASSESSMENT",
+        "assessment_years": 50,
+        "wlc_kgco2e_m2": {
+          "A1_A3": 100,
+          "A4_A5": 10,
+          "B1_B3_B5": 0,
+          "B7": 0,
+          "B4": 10,
+          "B6": 30,
+          "C1_C4": 10,
+          "D": -15
+        }
+      }
+    }
+  },
+  "historical_events": [
+    {
+      "id": "new2012",
+      "kind": "newbuild",
+      "country": "TEST",
+      "owner": "private",
+      "start_date": "2011-01-01",
+      "completion_date": "2012-01-01",
+      "permit_date": "2011-01-01",
+      "design_id": "efficient",
+      "building_floor_area_m2": 100,
+      "area_m2": 200,
+      "buildings": 2.0,
+      "dwellings": 2.0,
+      "place_id": "district",
+      "source_ref": "SYNTHETIC"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "PI_0",
+      "pathway": "PI",
+      "timing": "central",
+      "events": [
+        {
+          "id": "stage1",
+          "kind": "renovation",
+          "start_date": "2025-01-01",
+          "completion_date": "2026-01-01",
+          "selector": {
+            "root_id": "old_cube_cohort"
+          },
+          "area_m2": 1000,
+          "package_id": "roof_windows"
+        },
+        {
+          "id": "stage2",
+          "kind": "renovation",
+          "start_date": "2027-01-01",
+          "completion_date": "2028-01-01",
+          "selector": {
+            "root_id": "old_cube_cohort"
+          },
+          "area_m2": 1000,
+          "package_id": "walls_floor"
+        },
+        {
+          "id": "new2030",
+          "kind": "newbuild",
+          "country": "TEST",
+          "owner": "private",
+          "start_date": "2029-01-01",
+          "completion_date": "2030-01-01",
+          "permit_date": "2029-01-01",
+          "design_id": "efficient",
+          "building_floor_area_m2": 100,
+          "area_m2": 100,
+          "buildings": 1.0,
+          "dwellings": 1.0,
+          "place_id": "district",
+          "source_ref": "SYNTHETIC"
+        }
+      ]
+    },
+    {
+      "id": "PI_1",
+      "pathway": "PI",
+      "timing": "central",
+      "events": [
+        {
+          "id": "stage1",
+          "kind": "renovation",
+          "start_date": "2025-01-01",
+          "completion_date": "2026-01-01",
+          "selector": {
+            "root_id": "old_cube_cohort"
+          },
+          "area_m2": 1000,
+          "package_id": "roof_windows"
+        },
+        {
+          "id": "new2030",
+          "kind": "newbuild",
+          "country": "TEST",
+          "owner": "private",
+          "start_date": "2029-01-01",
+          "completion_date": "2030-01-01",
+          "permit_date": "2029-01-01",
+          "design_id": "efficient",
+          "building_floor_area_m2": 100,
+          "area_m2": 100,
+          "buildings": 1.0,
+          "dwellings": 1.0,
+          "place_id": "district",
+          "source_ref": "SYNTHETIC"
+        }
+      ]
+    },
+    {
+      "id": "PI_2",
+      "pathway": "PI",
+      "timing": "central",
+      "events": [
+        {
+          "id": "new2030",
+          "kind": "newbuild",
+          "country": "TEST",
+          "owner": "private",
+          "start_date": "2029-01-01",
+          "completion_date": "2030-01-01",
+          "permit_date": "2029-01-01",
+          "design_id": "efficient",
+          "building_floor_area_m2": 100,
+          "area_m2": 100,
+          "buildings": 1.0,
+          "dwellings": 1.0,
+          "place_id": "district",
+          "source_ref": "SYNTHETIC"
+        }
+      ]
+    },
+    {
+      "id": "PAS_0",
+      "pathway": "PAS",
+      "timing": "central",
+      "events": [
+        {
+          "id": "stage1",
+          "kind": "renovation",
+          "start_date": "2025-01-01",
+          "completion_date": "2026-01-01",
+          "selector": {
+            "root_id": "old_cube_cohort"
+          },
+          "area_m2": 1000,
+          "package_id": "roof_windows"
+        },
+        {
+          "id": "stage2",
+          "kind": "renovation",
+          "start_date": "2027-01-01",
+          "completion_date": "2028-01-01",
+          "selector": {
+            "root_id": "old_cube_cohort"
+          },
+          "area_m2": 1000,
+          "package_id": "walls_floor"
+        },
+        {
+          "id": "new2030",
+          "kind": "newbuild",
+          "country": "TEST",
+          "owner": "private",
+          "start_date": "2029-01-01",
+          "completion_date": "2030-01-01",
+          "permit_date": "2029-01-01",
+          "design_id": "efficient",
+          "building_floor_area_m2": 100,
+          "area_m2": 100,
+          "buildings": 1.0,
+          "dwellings": 1.0,
+          "place_id": "district",
+          "source_ref": "SYNTHETIC"
+        }
+      ]
+    },
+    {
+      "id": "PAS_1",
+      "pathway": "PAS",
+      "timing": "central",
+      "events": [
+        {
+          "id": "stage1",
+          "kind": "renovation",
+          "start_date": "2025-01-01",
+          "completion_date": "2026-01-01",
+          "selector": {
+            "root_id": "old_cube_cohort"
+          },
+          "area_m2": 1000,
+          "package_id": "roof_windows"
+        },
+        {
+          "id": "new2030",
+          "kind": "newbuild",
+          "country": "TEST",
+          "owner": "private",
+          "start_date": "2029-01-01",
+          "completion_date": "2030-01-01",
+          "permit_date": "2029-01-01",
+          "design_id": "efficient",
+          "building_floor_area_m2": 100,
+          "area_m2": 100,
+          "buildings": 1.0,
+          "dwellings": 1.0,
+          "place_id": "district",
+          "source_ref": "SYNTHETIC"
+        }
+      ]
+    },
+    {
+      "id": "PAS_2",
+      "pathway": "PAS",
+      "timing": "central",
+      "events": [
+        {
+          "id": "new2030",
+          "kind": "newbuild",
+          "country": "TEST",
+          "owner": "private",
+          "start_date": "2029-01-01",
+          "completion_date": "2030-01-01",
+          "permit_date": "2029-01-01",
+          "design_id": "efficient",
+          "building_floor_area_m2": 100,
+          "area_m2": 100,
+          "buildings": 1.0,
+          "dwellings": 1.0,
+          "place_id": "district",
+          "source_ref": "SYNTHETIC"
+        }
+      ]
+    },
+    {
+      "id": "HDE_0",
+      "pathway": "HDE",
+      "timing": "central",
+      "events": [
+        {
+          "id": "stage1",
+          "kind": "renovation",
+          "start_date": "2025-01-01",
+          "completion_date": "2026-01-01",
+          "selector": {
+            "root_id": "old_cube_cohort"
+          },
+          "area_m2": 1000,
+          "package_id": "roof_windows"
+        },
+        {
+          "id": "stage2",
+          "kind": "renovation",
+          "start_date": "2027-01-01",
+          "completion_date": "2028-01-01",
+          "selector": {
+            "root_id": "old_cube_cohort"
+          },
+          "area_m2": 1000,
+          "package_id": "walls_floor"
+        },
+        {
+          "id": "new2030",
+          "kind": "newbuild",
+          "country": "TEST",
+          "owner": "private",
+          "start_date": "2029-01-01",
+          "completion_date": "2030-01-01",
+          "permit_date": "2029-01-01",
+          "design_id": "efficient",
+          "building_floor_area_m2": 100,
+          "area_m2": 100,
+          "buildings": 1.0,
+          "dwellings": 1.0,
+          "place_id": "district",
+          "source_ref": "SYNTHETIC"
+        }
+      ]
+    },
+    {
+      "id": "HDE_1",
+      "pathway": "HDE",
+      "timing": "central",
+      "events": [
+        {
+          "id": "stage1",
+          "kind": "renovation",
+          "start_date": "2025-01-01",
+          "completion_date": "2026-01-01",
+          "selector": {
+            "root_id": "old_cube_cohort"
+          },
+          "area_m2": 1000,
+          "package_id": "roof_windows"
+        },
+        {
+          "id": "new2030",
+          "kind": "newbuild",
+          "country": "TEST",
+          "owner": "private",
+          "start_date": "2029-01-01",
+          "completion_date": "2030-01-01",
+          "permit_date": "2029-01-01",
+          "design_id": "efficient",
+          "building_floor_area_m2": 100,
+          "area_m2": 100,
+          "buildings": 1.0,
+          "dwellings": 1.0,
+          "place_id": "district",
+          "source_ref": "SYNTHETIC"
+        }
+      ]
+    },
+    {
+      "id": "HDE_2",
+      "pathway": "HDE",
+      "timing": "central",
+      "events": [
+        {
+          "id": "new2030",
+          "kind": "newbuild",
+          "country": "TEST",
+          "owner": "private",
+          "start_date": "2029-01-01",
+          "completion_date": "2030-01-01",
+          "permit_date": "2029-01-01",
+          "design_id": "efficient",
+          "building_floor_area_m2": 100,
+          "area_m2": 100,
+          "buildings": 1.0,
+          "dwellings": 1.0,
+          "place_id": "district",
+          "source_ref": "SYNTHETIC"
+        }
+      ]
+    }
+  ],
+  "standards": [
+    {
+      "id": "TEST_ZERO_FOSSIL",
+      "jurisdiction": "TEST",
+      "valid_from": "2030-01-01",
+      "date_basis": "completion_date",
+      "equals": {
+        "onsite_fossil_co2": 0
+      },
+      "wlc_required": true,
+      "source_ref": "SYNTHETIC"
+    }
+  ],
+  "weather": {
+    "district": {
+      "reference": [
+        {
+          "id": "winter",
+          "hours": 4000,
+          "outdoor_c": 4,
+          "indoor_c": 20,
+          "usable_gains_w_m2": 2
+        }
+      ]
+    }
+  }
+}

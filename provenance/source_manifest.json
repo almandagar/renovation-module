@@ -1,0 +1,1174 @@
+{
+  "source_version": "shared-engine-3.6",
+  "snapshot_date": "2026-11-18",
+  "files": [
+    {
+      "path": "01_shared_engine/archetype_integration.py",
+      "name": "archetype_integration.py",
+      "sha256": "531e394419357c09a1dcbe94a764a91326cafe0c379b2aa7d19d0ec5daad660b",
+      "bytes": 17551,
+      "export_sha256": "531e394419357c09a1dcbe94a764a91326cafe0c379b2aa7d19d0ec5daad660b",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/renovation_pipeline.py",
+      "name": "renovation_pipeline.py",
+      "sha256": "1170934be94377ac0f10f67d6593fd090d3924fb0b92855fb1be5a0561817634",
+      "bytes": 16794,
+      "export_sha256": "1170934be94377ac0f10f67d6593fd090d3924fb0b92855fb1be5a0561817634",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/renovation_module.py",
+      "name": "renovation_module.py",
+      "sha256": "ab86b7d1153004bc39758d005c36a9d8d468508c7092cdd85faa286ab301a898",
+      "bytes": 39396,
+      "export_sha256": "ab86b7d1153004bc39758d005c36a9d8d468508c7092cdd85faa286ab301a898",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/SK_DONOR_EXAMPLE_INPUT.json",
+      "name": "SK_DONOR_EXAMPLE_INPUT.json",
+      "sha256": "5fc465ed1d8562ca7ffaae1077823fade42bc9198de6a08489285fea7c9bb97e",
+      "bytes": 56838,
+      "export_sha256": "50b81c788a9c2fcbf22b8923b5786611cca834f6677cefa299729e6f7fbb09db",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/make_sk_donor_example.py",
+      "name": "make_sk_donor_example.py",
+      "sha256": "9942be76e762584eb0fffbb05a6e24a09cd3af232755d04fb4135330f69f5e8b",
+      "bytes": 5266,
+      "export_sha256": "4dad16f8988badd5449f292af6397914a46279b1a760e95413f21bcd21937b4e",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/construction_flow.py",
+      "name": "construction_flow.py",
+      "sha256": "7b3279f4cfad1cdc0d21e6bc2d930321d09932c94f2cee8b10c085221eb10b33",
+      "bytes": 5588,
+      "export_sha256": "7b3279f4cfad1cdc0d21e6bc2d930321d09932c94f2cee8b10c085221eb10b33",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/renovation_reconciliation.py",
+      "name": "renovation_reconciliation.py",
+      "sha256": "b1c005edb77747489d46b48b53a4526a3ce7665435038f02ebd1090f0f703f4d",
+      "bytes": 64735,
+      "export_sha256": "b1c005edb77747489d46b48b53a4526a3ce7665435038f02ebd1090f0f703f4d",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/archetype_physics.py",
+      "name": "archetype_physics.py",
+      "sha256": "cf9b05460f9ec24868b172b27ea8cb8b4859e45c8d50779a5016b4efbf1b567d",
+      "bytes": 14499,
+      "export_sha256": "cf9b05460f9ec24868b172b27ea8cb8b4859e45c8d50779a5016b4efbf1b567d",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/recipient_priority.py",
+      "name": "recipient_priority.py",
+      "sha256": "6e1c8e1d24760ac74db33553ea400f6fbd81b7199a6a77502a9f9a757a45cf14",
+      "bytes": 3573,
+      "export_sha256": "6e1c8e1d24760ac74db33553ea400f6fbd81b7199a6a77502a9f9a757a45cf14",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/urbclim_city_exposure_2035.py",
+      "name": "urbclim_city_exposure_2035.py",
+      "sha256": "f8d62f892b9f0a9c6b8a5fe181082ef5ad653d26326a3539ae339f98b9584701",
+      "bytes": 8359,
+      "export_sha256": "f8d62f892b9f0a9c6b8a5fe181082ef5ad653d26326a3539ae339f98b9584701",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/airflow_pressure.py",
+      "name": "airflow_pressure.py",
+      "sha256": "d25e677c37dee85755e1b8b75488bef4bb5db55f8e0705efe92aceb94f36ca5d",
+      "bytes": 6523,
+      "export_sha256": "d25e677c37dee85755e1b8b75488bef4bb5db55f8e0705efe92aceb94f36ca5d",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/surface_state.py",
+      "name": "surface_state.py",
+      "sha256": "53287627f70810beba8cdfbb525a2b60122dbc497e47d7366312bfbb73ced690",
+      "bytes": 9759,
+      "export_sha256": "53287627f70810beba8cdfbb525a2b60122dbc497e47d7366312bfbb73ced690",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/renovation_stock.py",
+      "name": "renovation_stock.py",
+      "sha256": "5b353f20cbd15be1cc793ef3961ebbd7964a859c3f254f4e2d1554d6776be055",
+      "bytes": 2603,
+      "export_sha256": "5b353f20cbd15be1cc793ef3961ebbd7964a859c3f254f4e2d1554d6776be055",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/airtightness_research.py",
+      "name": "airtightness_research.py",
+      "sha256": "1e9a6c8eb08039ba14e9ee9e20fce40f71646acd5b82538da7fafc84a1c42274",
+      "bytes": 6810,
+      "export_sha256": "1e9a6c8eb08039ba14e9ee9e20fce40f71646acd5b82538da7fafc84a1c42274",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/build_real_pecd_living_catalogue.py",
+      "name": "build_real_pecd_living_catalogue.py",
+      "sha256": "19a8d4f5df68284acc54ee45aaec7c7412976fb62874c18d0901b8782c5dac26",
+      "bytes": 18966,
+      "export_sha256": "19a8d4f5df68284acc54ee45aaec7c7412976fb62874c18d0901b8782c5dac26",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/weather_living_exposure.py",
+      "name": "weather_living_exposure.py",
+      "sha256": "1f6e6fff189870f4b574fe0857c94f577b9716ebb072dda9c17c1b1eec133e5d",
+      "bytes": 14582,
+      "export_sha256": "1f6e6fff189870f4b574fe0857c94f577b9716ebb072dda9c17c1b1eec133e5d",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/urban_climate_weather.py",
+      "name": "urban_climate_weather.py",
+      "sha256": "1303caf2978cf5c0e739264d3484839a494d64b72cf953f5789c650f9796344c",
+      "bytes": 10190,
+      "export_sha256": "1303caf2978cf5c0e739264d3484839a494d64b72cf953f5789c650f9796344c",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/weather_stress_selection.py",
+      "name": "weather_stress_selection.py",
+      "sha256": "7e03a1d4d168be0143ab12881eaa41f46c639fff79e1144e9b41024b9c61c582",
+      "bytes": 12711,
+      "export_sha256": "7e03a1d4d168be0143ab12881eaa41f46c639fff79e1144e9b41024b9c61c582",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/actor_formation.py",
+      "name": "actor_formation.py",
+      "sha256": "2de8ca50553f16390f50684c27f6a19628dd5b06ff62c3419dc00e424eebb554",
+      "bytes": 4397,
+      "export_sha256": "2de8ca50553f16390f50684c27f6a19628dd5b06ff62c3419dc00e424eebb554",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/build_renovation_outputs.py",
+      "name": "build_renovation_outputs.py",
+      "sha256": "bf51ecea7c0c0a25d60c2815d42f3c5aec0b6157b1d04b3e76fe6f771f5a5c54",
+      "bytes": 277,
+      "export_sha256": "bf51ecea7c0c0a25d60c2815d42f3c5aec0b6157b1d04b3e76fe6f771f5a5c54",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/renovation_program_observations.csv",
+      "name": "renovation_program_observations.csv",
+      "sha256": "518e3de646fc6121a513408ad49ddc9c2745a435aaff78a9d324846702e6d749",
+      "bytes": 2636,
+      "export_sha256": "518e3de646fc6121a513408ad49ddc9c2745a435aaff78a9d324846702e6d749",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/renovation_stock_margins.csv",
+      "name": "renovation_stock_margins.csv",
+      "sha256": "60cc4ff4b03d5ce6bed7ae52852e784987a1e18c0ea5949b1b864d3960cf7abd",
+      "bytes": 2503,
+      "export_sha256": "60cc4ff4b03d5ce6bed7ae52852e784987a1e18c0ea5949b1b864d3960cf7abd",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/README.md",
+      "name": "README.md",
+      "sha256": "caadb3d51c6dc37dcae62a95e626541cf491d92110dc63502cee886900bfe62d",
+      "bytes": 9177,
+      "export_sha256": "ddc2751b936266cba54d11a678a603ea122593df262386cc89da173e8ed2d039",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/physical_archetype_library_TEST_ONLY.json",
+      "name": "physical_archetype_library_TEST_ONLY.json",
+      "sha256": "22520632543e32649690423122f17e8e0ca0cc45cfd5d7758bf18e422a317971",
+      "bytes": 3646,
+      "export_sha256": "22520632543e32649690423122f17e8e0ca0cc45cfd5d7758bf18e422a317971",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/standards_registry_seed.json",
+      "name": "standards_registry_seed.json",
+      "sha256": "f4ffe3142e2459e133cb6792f9fc71ba68368355d61aa1bcb0fb143e5cd0c635",
+      "bytes": 2606,
+      "export_sha256": "f4ffe3142e2459e133cb6792f9fc71ba68368355d61aa1bcb0fb143e5cd0c635",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/steel_source_notes.csv",
+      "name": "steel_source_notes.csv",
+      "sha256": "c3ac81cf5c80cd3d5b0df07efbdb34405d7b208ae31334c3daba0d375302a0d2",
+      "bytes": 3591,
+      "export_sha256": "575bdd67c5a6e156ccc722ac4a0ff3ad0bf28b10a1718f9eff017dc493b0f83f",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/steel_archetype_crosswalk.csv",
+      "name": "steel_archetype_crosswalk.csv",
+      "sha256": "dd2d85b78bd359bdab1c7051b74ef9176d7340bb6f778bdb55db090f43d386a1",
+      "bytes": 10222,
+      "export_sha256": "fc7f4267a77f630413b17921edbb404ddd6cb1181f205e04eb9271431eeacc5b",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/steel_material_intensity_proxies.csv",
+      "name": "steel_material_intensity_proxies.csv",
+      "sha256": "c6c03b0763d4e93ef54b48dda5b8ffb3245c63ccd619836016d0c7b38859177e",
+      "bytes": 10674,
+      "export_sha256": "75d255efb0753007d69781628cc2bf5ea3529f53802456b991bddacb9d0ef0d5",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/steel_intervention_rules.csv",
+      "name": "steel_intervention_rules.csv",
+      "sha256": "125627b276adc4678697f512b1eb6c511db58f80fc9ef7ad9b02a6bd2c1ecdd1",
+      "bytes": 5970,
+      "export_sha256": "5844a99e84448a90451787a2f20c28b6c07ea99b628a20ad1449a566b3107d14",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/modifier_candidates.csv",
+      "name": "modifier_candidates.csv",
+      "sha256": "3a1dbc293e0d6d4ba42cacef9c7eb42d6fc7f6e781e3c1101dda2f8a1593f971",
+      "bytes": 5685,
+      "export_sha256": "6a96c199f152922e98679c42b8bec98a645d29bfcb7d032d48a62f10a11646d1",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/strategy_definitions.csv",
+      "name": "strategy_definitions.csv",
+      "sha256": "8697cb8f405b63085e061092aee5872d5d571da007eed160254e6c332a4fff91",
+      "bytes": 67390,
+      "export_sha256": "b4e3882e2270a5ada467900eddbecab2e6e574996648f80c55ace67716202ddb",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/sector_reference_slots.csv",
+      "name": "sector_reference_slots.csv",
+      "sha256": "ca08078bf995c7cb1eadac671c9d4d1f4edd5021a930251cd46c6b1918736e63",
+      "bytes": 3537,
+      "export_sha256": "908522b5bbef8587cd81f42f9f5e338439568c03532f19418f03d567ae7c8724",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/archetypes.csv",
+      "name": "archetypes.csv",
+      "sha256": "fac85983b93f542f594954252fc1874ec392934ea6afdb5b15b4ccaa0dba4d7d",
+      "bytes": 14851,
+      "export_sha256": "738f7b1e7f9c763d22d5d1c9218eeb64ef023dd210d7cff072d82a7615274b44",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/donor_mechanisms.csv",
+      "name": "donor_mechanisms.csv",
+      "sha256": "858f93f00ae5accf8a78428e3a51e578e9d48e5e58414203c7d992662bf1261b",
+      "bytes": 7650,
+      "export_sha256": "d4d92d8ce8fcaaddc236bcc8fbb45d74cc3e20d53c108b7fe7a82c12e366838d",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/project_observations.csv",
+      "name": "project_observations.csv",
+      "sha256": "0c4b1bd8e764060c00ec17226c8d56c651545dd4f32b11b23e432ceaffb14078",
+      "bytes": 56625,
+      "export_sha256": "1acb854f39ca6a369f2b6b51215972af60bf277bc88eeea419152657b9b96dd7",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/reference_packages.csv",
+      "name": "reference_packages.csv",
+      "sha256": "884430e9a3a6b9af3cd905bed73a30f5f0bc316bf1067818c0efc9a5e4e9aaa8",
+      "bytes": 89526,
+      "export_sha256": "ced1b088cf8be84e0a66f9e79ce5e8446bfd2278e99d7077675d56e7e80e0ee1",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/shared_archetype_reference_v01/renovation_shared_archetype_reference_v01.json",
+      "name": "renovation_shared_archetype_reference_v01.json",
+      "sha256": "59566c8f82f1744c770f57311acd0979e6f1b55f9e38c5c4f3d9abfc264878e6",
+      "bytes": 569567,
+      "export_sha256": "cdc08c6086d96bb707ad2eb5a6ed993c90552ff0c757e272bb9674afb293f16b",
+      "adapted_for_export": true
+    },
+    {
+      "path": "04_parallel_city_physical_tests/SYNTHETIC_EXAMPLE.json",
+      "name": "SYNTHETIC_EXAMPLE.json",
+      "sha256": "6acf99fc87e33f5a7abd07819aed21bd47f93d077f975ef63adc8fec8d828e00",
+      "bytes": 1952,
+      "export_sha256": "6acf99fc87e33f5a7abd07819aed21bd47f93d077f975ef63adc8fec8d828e00",
+      "adapted_for_export": false
+    },
+    {
+      "path": "04_parallel_city_physical_tests/test_city_physical_tests.py",
+      "name": "test_city_physical_tests.py",
+      "sha256": "f6ad2cd20b51de0b8469d123af74246f71114b079604c9151e7fa6918a88dfc5",
+      "bytes": 8961,
+      "export_sha256": "f6ad2cd20b51de0b8469d123af74246f71114b079604c9151e7fa6918a88dfc5",
+      "adapted_for_export": false
+    },
+    {
+      "path": "04_parallel_city_physical_tests/city_physical_tests.py",
+      "name": "city_physical_tests.py",
+      "sha256": "54ce0788b01af28857fd83ab32383e70d31da0e55a875380c11146374be7fbef",
+      "bytes": 17366,
+      "export_sha256": "54ce0788b01af28857fd83ab32383e70d31da0e55a875380c11146374be7fbef",
+      "adapted_for_export": false
+    },
+    {
+      "path": "docs/ARCHETYPE_INTEGRATION_RELEASE_V36.md",
+      "name": "ARCHETYPE_INTEGRATION_RELEASE_V36.md",
+      "sha256": "b4e633ff71fe3ec69dcef82f80c3e8080bd206140d4a6d1835e6fe2a950a5f08",
+      "bytes": 6810,
+      "export_sha256": "763746eec9004ca446f159be7b58472a5393468b84571b24ead14aa373c21f33",
+      "adapted_for_export": true
+    },
+    {
+      "path": "docs/THREE_COMPONENT_CONTRACT.md",
+      "name": "THREE_COMPONENT_CONTRACT.md",
+      "sha256": "63547aaf0ec03daed2f69e29eb539d31f241f6d4e8b4afea987001eb7ecf02cb",
+      "bytes": 43254,
+      "export_sha256": "97892e734758668fca9fc8d0651ee0665d59e25b908e368528eeca8a139b931e",
+      "adapted_for_export": true
+    },
+    {
+      "path": "docs/RENOVATION_THERMAL_AND_URBAN_MODEL_QUALIFICATION_PROTOCOL_V01.md",
+      "name": "RENOVATION_THERMAL_AND_URBAN_MODEL_QUALIFICATION_PROTOCOL_V01.md",
+      "sha256": "e20f61d9a37c7e361f4d994bbf9808a080f1a5c5fd80d17fd8a630bec6fb0952",
+      "bytes": 20315,
+      "export_sha256": "c9f655cd78bb5b7013c85004c58bb1de334c84e78eb62d3c05c2ca0703ab9d27",
+      "adapted_for_export": true
+    },
+    {
+      "path": "docs/STOCK_VALIDATION_ENGINE.md",
+      "name": "STOCK_VALIDATION_ENGINE.md",
+      "sha256": "5a6590262ad70e5682154d4913780f451cff6637e2b97f416a46b0a4cc117eea",
+      "bytes": 10308,
+      "export_sha256": "970b7c2e66df37d50b73b5ad28b05eb1ce1766a1000dc615cff5757c1be6d160",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/COHORT_ACCEPTANCE_INPUT.json",
+      "name": "COHORT_ACCEPTANCE_INPUT.json",
+      "sha256": "758f6f38d229a3ddc2f39807fe72aa5bf1da4cda44c98b3c77589abfd743fc73",
+      "bytes": 13801,
+      "export_sha256": "758f6f38d229a3ddc2f39807fe72aa5bf1da4cda44c98b3c77589abfd743fc73",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/renovation_trajectory.py",
+      "name": "renovation_trajectory.py",
+      "sha256": "812fddf8c3fa3bf16e1b6c49aefcdf21f4fca9c04e8bf432874b2248c448189e",
+      "bytes": 266,
+      "export_sha256": "812fddf8c3fa3bf16e1b6c49aefcdf21f4fca9c04e8bf432874b2248c448189e",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/renovation_materials.py",
+      "name": "renovation_materials.py",
+      "sha256": "6c3e7e7f26ec80c90683359cd04c525b762ce40ef78b3d1215d5d42cfa708d6e",
+      "bytes": 373,
+      "export_sha256": "6c3e7e7f26ec80c90683359cd04c525b762ce40ef78b3d1215d5d42cfa708d6e",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/archetype_source_adapter.py",
+      "name": "archetype_source_adapter.py",
+      "sha256": "b8c03e4a00ec0ee6db6a899284eb8285908aab8d166d0aedf10a8d78c766a867",
+      "bytes": 3070,
+      "export_sha256": "5aece7360e352899257a3c0e1c302b8392e3ae3dd5abf22d6cd3db9e22882513",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/building_neighbourhood_adapter.py",
+      "name": "building_neighbourhood_adapter.py",
+      "sha256": "d76b4e6010c70749861127c0edd10b61cacc9cf9ee161d95473ecd08bb2f4445",
+      "bytes": 1934,
+      "export_sha256": "d76b4e6010c70749861127c0edd10b61cacc9cf9ee161d95473ecd08bb2f4445",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/renovation_gas_attribution.py",
+      "name": "renovation_gas_attribution.py",
+      "sha256": "64ea545b1565a6031d1269cec7fc4bd1e85948db220a213690ec852201f479b1",
+      "bytes": 1303,
+      "export_sha256": "64ea545b1565a6031d1269cec7fc4bd1e85948db220a213690ec852201f479b1",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/renovation_cohort_checks.py",
+      "name": "renovation_cohort_checks.py",
+      "sha256": "3fa5ada59c24c1f500fd6fed75c2a83e65066ce72d7e8d30d7bf54fe14f5afbc",
+      "bytes": 4214,
+      "export_sha256": "3fa5ada59c24c1f500fd6fed75c2a83e65066ce72d7e8d30d7bf54fe14f5afbc",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/renovation_heating_accounting.py",
+      "name": "renovation_heating_accounting.py",
+      "sha256": "9e6ea7163883b99aea79a28d0a54e9c823969a0809cf49427e0ad080b90d1967",
+      "bytes": 2046,
+      "export_sha256": "9e6ea7163883b99aea79a28d0a54e9c823969a0809cf49427e0ad080b90d1967",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/renovation_validation.py",
+      "name": "renovation_validation.py",
+      "sha256": "2fc28c64d2f359bc44dc0c78cd5aa0fc65a78daebbb2d80ab8d701f87c7b0ad9",
+      "bytes": 14218,
+      "export_sha256": "2fc28c64d2f359bc44dc0c78cd5aa0fc65a78daebbb2d80ab8d701f87c7b0ad9",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_archetype_integration.py",
+      "name": "test_archetype_integration.py",
+      "sha256": "271c85a91f2e8a08778d5f45411f3be1d6826b664a8ed0f8526337d155fa975d",
+      "bytes": 10116,
+      "export_sha256": "271c85a91f2e8a08778d5f45411f3be1d6826b664a8ed0f8526337d155fa975d",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_pas_essential_timing_v35.py",
+      "name": "test_pas_essential_timing_v35.py",
+      "sha256": "d861fc7c033fddaed055657dcb804b90209f58a49fb933e62203387e04a83cf9",
+      "bytes": 7612,
+      "export_sha256": "d861fc7c033fddaed055657dcb804b90209f58a49fb933e62203387e04a83cf9",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_pas_newbuild_reallocation.py",
+      "name": "test_pas_newbuild_reallocation.py",
+      "sha256": "8bbd5576c22af1b490b9dc5fbc4d06166b51c507cf203e6d15aacbdc04d3e429",
+      "bytes": 8062,
+      "export_sha256": "8bbd5576c22af1b490b9dc5fbc4d06166b51c507cf203e6d15aacbdc04d3e429",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_sk_ke_site_identity_v09.py",
+      "name": "test_sk_ke_site_identity_v09.py",
+      "sha256": "b7ba7ee10a32a9adc86238d90a5eaf545e81a7bfa8141aeb3890fa5d3472bd19",
+      "bytes": 4179,
+      "export_sha256": "b7ba7ee10a32a9adc86238d90a5eaf545e81a7bfa8141aeb3890fa5d3472bd19",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_panel_event_scheduler.py",
+      "name": "test_panel_event_scheduler.py",
+      "sha256": "b13749b41e2141d792e3ae70f6ffea2df6089f16c06df71d25b81168a78a0513",
+      "bytes": 4823,
+      "export_sha256": "b13749b41e2141d792e3ae70f6ffea2df6089f16c06df71d25b81168a78a0513",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_local_completion_evidence.py",
+      "name": "test_local_completion_evidence.py",
+      "sha256": "b582577b4d11d2e9a33db94f178b034bc0b2f28200f7fe12f3fb5a88dc363334",
+      "bytes": 3021,
+      "export_sha256": "b582577b4d11d2e9a33db94f178b034bc0b2f28200f7fe12f3fb5a88dc363334",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_panel_floor_policy.py",
+      "name": "test_panel_floor_policy.py",
+      "sha256": "6b5b2dcb405b24d1094dc3b23b1e0b402733fadf9c24908d1010ad1543fb6bac",
+      "bytes": 17648,
+      "export_sha256": "6b5b2dcb405b24d1094dc3b23b1e0b402733fadf9c24908d1010ad1543fb6bac",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_panel_ra_physics.py",
+      "name": "test_panel_ra_physics.py",
+      "sha256": "0bcede212a6845b227c55f390caead23c2c371349089937f66f9085de322edc6",
+      "bytes": 5155,
+      "export_sha256": "0bcede212a6845b227c55f390caead23c2c371349089937f66f9085de322edc6",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_panel_dated_delivery.py",
+      "name": "test_panel_dated_delivery.py",
+      "sha256": "e4cc79317a978f408260413d108684626f6c097482bbf83fac7f9625469a113a",
+      "bytes": 5727,
+      "export_sha256": "e4cc79317a978f408260413d108684626f6c097482bbf83fac7f9625469a113a",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_panel_spatial_integration.py",
+      "name": "test_panel_spatial_integration.py",
+      "sha256": "dec104622d98ffa669607acd7c143e739183099d19295e536a1ce45efc8fcc27",
+      "bytes": 6276,
+      "export_sha256": "dec104622d98ffa669607acd7c143e739183099d19295e536a1ce45efc8fcc27",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_renovation_geographic_reconciliation.py",
+      "name": "test_renovation_geographic_reconciliation.py",
+      "sha256": "69b15f0351140cd5015f315645e7de48b4b89ac30c8cb648d6231fd9dd5a84b5",
+      "bytes": 11574,
+      "export_sha256": "69b15f0351140cd5015f315645e7de48b4b89ac30c8cb648d6231fd9dd5a84b5",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_urbclim_city_exposure.py",
+      "name": "test_urbclim_city_exposure.py",
+      "sha256": "4b0dd3e8a1df732a67f89be0673b91123a123b0b8d626489392af7bde923d0c2",
+      "bytes": 4056,
+      "export_sha256": "4b0dd3e8a1df732a67f89be0673b91123a123b0b8d626489392af7bde923d0c2",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_airflow_pressure.py",
+      "name": "test_airflow_pressure.py",
+      "sha256": "6642ade332f95677a328af48068daf60e111e2c1802e1dc3ff9ec019f5172f08",
+      "bytes": 5820,
+      "export_sha256": "6642ade332f95677a328af48068daf60e111e2c1802e1dc3ff9ec019f5172f08",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_surface_state_integration.py",
+      "name": "test_surface_state_integration.py",
+      "sha256": "974bf8b5fee1678dae203bc4f3df13b7c0c9125d91b347dc2c95b7a9312d8db8",
+      "bytes": 20033,
+      "export_sha256": "974bf8b5fee1678dae203bc4f3df13b7c0c9125d91b347dc2c95b7a9312d8db8",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_airtightness_research.py",
+      "name": "test_airtightness_research.py",
+      "sha256": "a3e8e151ae9aab2a951b425ff4d341713663075be803d7be4563f1ed58f99868",
+      "bytes": 5102,
+      "export_sha256": "a3e8e151ae9aab2a951b425ff4d341713663075be803d7be4563f1ed58f99868",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_real_pecd_living_catalogue.py",
+      "name": "test_real_pecd_living_catalogue.py",
+      "sha256": "802f66ff45619a93a5ff33e708068f0bb669d9b77221a082843d59f38c3535ee",
+      "bytes": 5545,
+      "export_sha256": "bacfa4c30b2681144eded8eab9d87d6f18da9c3666528d3ffb58b71fdbdd51a0",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/test_weather_living_exposure.py",
+      "name": "test_weather_living_exposure.py",
+      "sha256": "4132caebd198999145b6b63ee16d3f0c349ec7609fa6e368cc77c6f3d78111e1",
+      "bytes": 6453,
+      "export_sha256": "4132caebd198999145b6b63ee16d3f0c349ec7609fa6e368cc77c6f3d78111e1",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_weather_urban_interfaces.py",
+      "name": "test_weather_urban_interfaces.py",
+      "sha256": "3b5205f87d46af06a50b13705fc4f2fd3539dd559a828608f36f98d662c86ab5",
+      "bytes": 7272,
+      "export_sha256": "3b5205f87d46af06a50b13705fc4f2fd3539dd559a828608f36f98d662c86ab5",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/test_cohort_engine.py",
+      "name": "test_cohort_engine.py",
+      "sha256": "6b742e66af0f3734eaa2d711a820323a46e8b037f28401ff11ab5171f2c5ef04",
+      "bytes": 17176,
+      "export_sha256": "6b742e66af0f3734eaa2d711a820323a46e8b037f28401ff11ab5171f2c5ef04",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/make_acceptance_fixture.py",
+      "name": "make_acceptance_fixture.py",
+      "sha256": "9d1595746ee2c75257dc0e9f56faad0d883a2744341b607dea5bbd8eedd5157a",
+      "bytes": 3985,
+      "export_sha256": "9d1595746ee2c75257dc0e9f56faad0d883a2744341b607dea5bbd8eedd5157a",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/sk_fh_donor_snapshot_v36.json",
+      "name": "sk_fh_donor_snapshot_v36.json",
+      "sha256": "4434f724f73cec3b30c68b1080d46876f2738663c8b80025f6b9a96fb3c57cd3",
+      "bytes": 13975,
+      "export_sha256": "5b0501d1ce9602e4bce445c1b8d16f815573279b6cf2ac19cb8f6864502c1a00",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/renovation_evidence_register.json",
+      "name": "renovation_evidence_register.json",
+      "sha256": "dc8d0edbe658f6e78a1ab7157390dc9c83b2ded35acdc231192491c4d6c9cfe2",
+      "bytes": 3408,
+      "export_sha256": "5a95bcc15ef7271feed49796587455c13467d4ea0735f0237d4b7f226bd44355",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/renovation_baseline_modernisation_evidence.csv",
+      "name": "renovation_baseline_modernisation_evidence.csv",
+      "sha256": "33c5908f7e873de55d72f0fcc4b0ef33c0f70f4369faac77975a8a8c6791a5d6",
+      "bytes": 18589,
+      "export_sha256": "382fc9d3aed678878b3d0a3e0bced551821b825ffc305f45f44fb945898b0ffb",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/germany_renovation_pi_realisation_evidence_v01.csv",
+      "name": "germany_renovation_pi_realisation_evidence_v01.csv",
+      "sha256": "a6d116a5ce6fc5d4f8b09d07d8ff44b6b6f059e899afabe39f4c071aa01096c4",
+      "bytes": 17638,
+      "export_sha256": "53996c42dd2b8750f6feaaa4336ebc44e56a839a39dc64188c679cee9266ab3f",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/germany_renovation_pi_process_parameters_v03.json",
+      "name": "germany_renovation_pi_process_parameters_v03.json",
+      "sha256": "646f3c310ce2eada338598d10be59b47cceedccdd79bf6556a530e3eb127fd56",
+      "bytes": 3042,
+      "export_sha256": "646f3c310ce2eada338598d10be59b47cceedccdd79bf6556a530e3eb127fd56",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/renovation_diffusion_comparator_evidence_v03.csv",
+      "name": "renovation_diffusion_comparator_evidence_v03.csv",
+      "sha256": "e58bb7737477f0114fa0c49a58daae446d4d1f79eaa6fc3ed88b6a4a61cf0fd6",
+      "bytes": 3636,
+      "export_sha256": "aa22a8afe1a42dbed4fb9d721e02e1d4c23d683be930a687fadfab7a085f0ed3",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/germany_renovation_pi_diffusion_controls_v03.csv",
+      "name": "germany_renovation_pi_diffusion_controls_v03.csv",
+      "sha256": "5cce3fa6259896c397434eea061d62ab4df7aa840588472dace3ed022a6367f8",
+      "bytes": 6574,
+      "export_sha256": "6d825e5c897c26a46ab92b21650e69ea169d0107e27faf05a31f8455278d87a4",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/renovation_pathway_rules.csv",
+      "name": "renovation_pathway_rules.csv",
+      "sha256": "97e46488e1b34ce199229676ab42d56d0ffdb919867955d86e53db8f900a4e00",
+      "bytes": 2294,
+      "export_sha256": "4effeeaebb99fea490790c48563ea515929b571e1c3a11ac2f0860860516b9d8",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/renovation_sources.csv",
+      "name": "renovation_sources.csv",
+      "sha256": "6e268e79c1f9820cd46c31caf60a0a8c13137fcf371b7772b6ba601dd0a8bc3b",
+      "bytes": 3278,
+      "export_sha256": "6e268e79c1f9820cd46c31caf60a0a8c13137fcf371b7772b6ba601dd0a8bc3b",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pulse_moderate_refurbishment_vintage_prior_v1.csv",
+      "name": "pulse_moderate_refurbishment_vintage_prior_v1.csv",
+      "sha256": "6e6e7f1e0dd6b912591f2dbca5a7272f3df1147d6778a244417e5bde9c811699",
+      "bytes": 22978,
+      "export_sha256": "6e6e7f1e0dd6b912591f2dbca5a7272f3df1147d6778a244417e5bde9c811699",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pulse_eu_renovation_capacity_envelope_v1.csv",
+      "name": "pulse_eu_renovation_capacity_envelope_v1.csv",
+      "sha256": "183eab5540497045eb55d59aaa828f876de06df08bb0d0273d5a4cc5e841d9e6",
+      "bytes": 3035,
+      "export_sha256": "183eab5540497045eb55d59aaa828f876de06df08bb0d0273d5a4cc5e841d9e6",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pulse_eu_crs_capacity_controls_v1.csv",
+      "name": "pulse_eu_crs_capacity_controls_v1.csv",
+      "sha256": "227c7dadb3d2019aedd58c0bc1e7007278521102c852a1b8442733d6c515b4bb",
+      "bytes": 142093,
+      "export_sha256": "227c7dadb3d2019aedd58c0bc1e7007278521102c852a1b8442733d6c515b4bb",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/moderate_residential_stock_summary_v1.csv",
+      "name": "moderate_residential_stock_summary_v1.csv",
+      "sha256": "d68c334b76daf9945de817569734fc57dcb26093008d7fed127b1fe0904b8046",
+      "bytes": 6727,
+      "export_sha256": "d68c334b76daf9945de817569734fc57dcb26093008d7fed127b1fe0904b8046",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/moderate_residential_age_envelope_controls_v1.csv",
+      "name": "moderate_residential_age_envelope_controls_v1.csv",
+      "sha256": "28f7c11d999e9d3253ca3fe6d8ee2b07b5b3a4585cb7214ce938f9977fd2e000",
+      "bytes": 32165,
+      "export_sha256": "28f7c11d999e9d3253ca3fe6d8ee2b07b5b3a4585cb7214ce938f9977fd2e000",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_archetype_bridge_v1.csv",
+      "name": "pas_material_archetype_bridge_v1.csv",
+      "sha256": "a995afdf40ee784c86a7ea6cd3a37ebcf197991b57380603b8fefa5ec9581020",
+      "bytes": 1527,
+      "export_sha256": "a995afdf40ee784c86a7ea6cd3a37ebcf197991b57380603b8fefa5ec9581020",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_archetype_floor_controls_v1.csv",
+      "name": "pas_material_archetype_floor_controls_v1.csv",
+      "sha256": "7426a505ea551902eb89d10dbd222b1af2e91cae126f41a2aeab461d4b9a8a3b",
+      "bytes": 2571,
+      "export_sha256": "7426a505ea551902eb89d10dbd222b1af2e91cae126f41a2aeab461d4b9a8a3b",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_conversion_channel_controls_v1.csv",
+      "name": "pas_material_conversion_channel_controls_v1.csv",
+      "sha256": "7d6a20e1c3750b0163b1b282e1ab8985465120658b015115d9ed0e2c584b9ffe",
+      "bytes": 3375,
+      "export_sha256": "7d6a20e1c3750b0163b1b282e1ab8985465120658b015115d9ed0e2c584b9ffe",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_country_transformation_controls_v1.csv",
+      "name": "pas_material_country_transformation_controls_v1.csv",
+      "sha256": "ab1face07cae80e328223f56afcc25177cb80ab49b08222237a4d1ba4f62f36b",
+      "bytes": 6324,
+      "export_sha256": "ab1face07cae80e328223f56afcc25177cb80ab49b08222237a4d1ba4f62f36b",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_eu15_structural_reference_v2.csv",
+      "name": "pas_material_eu15_structural_reference_v2.csv",
+      "sha256": "9b8baab17e3ce696cc897e53c414bb813678c8dd2a31f9080810c7fda1319a7e",
+      "bytes": 6794,
+      "export_sha256": "6606e977e56a93173e8bd92ee0af4dada9e5d1d768c360753a358b94d22eaa42",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_eu15_timber_residual_reference_v1.csv",
+      "name": "pas_material_eu15_timber_residual_reference_v1.csv",
+      "sha256": "03acec5271a0db26baa5458fc5f307b1c603346a326ab4d31a134805bf346b5f",
+      "bytes": 1937,
+      "export_sha256": "a82cbd4a0b6bdb7b4a88edb728cd5f99c7a4643bcb2fffc6a7ca08eed1bc543d",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_euplus_circularity_best_practice_targets_v2.csv",
+      "name": "pas_material_euplus_circularity_best_practice_targets_v2.csv",
+      "sha256": "a747b2db29a4007ce43511e4e0ae313d0f3f8bdaa0a0b0ee37e12d051e13017f",
+      "bytes": 8075,
+      "export_sha256": "ae903b69c31ca1cbbd5716f3b92eda5d0b6c2669c0042b31841bb739c12ae456",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_fr_closed_renovation_controls_v1.csv",
+      "name": "pas_material_fr_closed_renovation_controls_v1.csv",
+      "sha256": "1efa736d64e625b38bf33877f2ccc8fe3eea1c9316e49b1e80a758bd37671d37",
+      "bytes": 2523,
+      "export_sha256": "1efa736d64e625b38bf33877f2ccc8fe3eea1c9316e49b1e80a758bd37671d37",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_fr_pmcb_reuse_controls_v1.csv",
+      "name": "pas_material_fr_pmcb_reuse_controls_v1.csv",
+      "sha256": "4d288c984fd30a60daa21a08bc7f164da0251babc05d20fb2cf550c9066400b1",
+      "bytes": 15359,
+      "export_sha256": "4d288c984fd30a60daa21a08bc7f164da0251babc05d20fb2cf550c9066400b1",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_fr_vintage_bridge_v1.csv",
+      "name": "pas_material_fr_vintage_bridge_v1.csv",
+      "sha256": "57abbfa398ce53249623678f87a917dd3fd77ccb803d8401637e666503a0ff4c",
+      "bytes": 6185,
+      "export_sha256": "57abbfa398ce53249623678f87a917dd3fd77ccb803d8401637e666503a0ff4c",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_glass_controls_fr_nl_v1.csv",
+      "name": "pas_material_glass_controls_fr_nl_v1.csv",
+      "sha256": "c123097df21f50d3672cd63d0ed697ea3d5ef8dcd3f2ff08b4bc82b9279c1080",
+      "bytes": 27836,
+      "export_sha256": "c123097df21f50d3672cd63d0ed697ea3d5ef8dcd3f2ff08b4bc82b9279c1080",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_newbuild_form_controls_v1.csv",
+      "name": "pas_material_newbuild_form_controls_v1.csv",
+      "sha256": "5e4c136d1e2715446aa078f52d3ea5168a64e1d7796985e5e1154400b23521e1",
+      "bytes": 4444,
+      "export_sha256": "2850db0843cc766a5cab34a8bf9ff271c337cf1a8aefde90675b4b5d265047c1",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_newbuild_observed_form_baseline_fr_nl_v1.csv",
+      "name": "pas_material_newbuild_observed_form_baseline_fr_nl_v1.csv",
+      "sha256": "a4b907200cc6773ee57bd458582ab351aaec8ae6cf314abed2d6e3f23836bfc0",
+      "bytes": 879,
+      "export_sha256": "edaba53a0fb9442735cb619355d0e914db4369465943b872ad704783d94c4eec",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_cbs_sprecher_type_age_mapping_controls_v1.csv",
+      "name": "pas_material_nl_cbs_sprecher_type_age_mapping_controls_v1.csv",
+      "sha256": "46de18cf7569a019e8920cc24bb64d0f82bd1775d5adc9a8bca3f39bf20a9fb9",
+      "bytes": 783,
+      "export_sha256": "46de18cf7569a019e8920cc24bb64d0f82bd1775d5adc9a8bca3f39bf20a9fb9",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_conventional_structural_reference_v1.csv",
+      "name": "pas_material_nl_conventional_structural_reference_v1.csv",
+      "sha256": "ac08790b8c8048ded93b1ee3018ee767d4026cf7b6651ce0a3f9ef62777cf5c0",
+      "bytes": 3269,
+      "export_sha256": "063deb9d1618537f8cddc17572c46213980d4b9bf6b71d568650b0867976ac4a",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_demolition_outflow_reference_controls_v2.csv",
+      "name": "pas_material_nl_demolition_outflow_reference_controls_v2.csv",
+      "sha256": "ee4139e50731cd28afaa7125b44c6719fe50a99804979710af929a14de7aaca1",
+      "bytes": 2360,
+      "export_sha256": "ee4139e50731cd28afaa7125b44c6719fe50a99804979710af929a14de7aaca1",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_eib_cbs_stock_denominator_bounds_controls_v1.csv",
+      "name": "pas_material_nl_eib_cbs_stock_denominator_bounds_controls_v1.csv",
+      "sha256": "16ee7c81bcfe662e0c73f1b42a9a1db87c26b4e4fe800108261c29cddef56dab",
+      "bytes": 3252,
+      "export_sha256": "16ee7c81bcfe662e0c73f1b42a9a1db87c26b4e4fe800108261c29cddef56dab",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_eib_demolition_hazard_controls_v1.csv",
+      "name": "pas_material_nl_eib_demolition_hazard_controls_v1.csv",
+      "sha256": "846cf58e9e176fb7f3c9fa476c7e4b238a205a036cfa82f749c82befc04d3c8f",
+      "bytes": 11113,
+      "export_sha256": "846cf58e9e176fb7f3c9fa476c7e4b238a205a036cfa82f749c82befc04d3c8f",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_futuram_demolition_counterevidence_controls_v2.csv",
+      "name": "pas_material_nl_futuram_demolition_counterevidence_controls_v2.csv",
+      "sha256": "e8f4103976c9bef5858fb1b37c3187b4942fafe4c61542bbcc943b97beec41dc",
+      "bytes": 9020,
+      "export_sha256": "e8f4103976c9bef5858fb1b37c3187b4942fafe4c61542bbcc943b97beec41dc",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_glazing_replacement_extension_boundary_controls_v1.csv",
+      "name": "pas_material_nl_glazing_replacement_extension_boundary_controls_v1.csv",
+      "sha256": "52a517c8c0c182474505801ef604079267ef7156d997565f95662fda88fbfa22",
+      "bytes": 1687,
+      "export_sha256": "4ea19de3951877386b59c770b922a0098c6fab13a3ad356d24626227feee3e86",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_old_insulation_composition_density_controls_v1.csv",
+      "name": "pas_material_nl_old_insulation_composition_density_controls_v1.csv",
+      "sha256": "23af69b9b7da8cb4d08939bc6da6433bc23500b4f1f83c0db4e2e876c1f4ed20",
+      "bytes": 4221,
+      "export_sha256": "6eb02b633019a4cb77dba6318bf60e4b1127b20986f96f19426a32249c5acdba",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_old_insulation_vintage_archetype_controls_v1.csv",
+      "name": "pas_material_nl_old_insulation_vintage_archetype_controls_v1.csv",
+      "sha256": "fae18b9c7cb9c74c0c65744f05a76f8bf98c5675e6a0797ef5d3f4e4a44991a7",
+      "bytes": 2906,
+      "export_sha256": "fae18b9c7cb9c74c0c65744f05a76f8bf98c5675e6a0797ef5d3f4e4a44991a7",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_renovation_component_inflow_composition_controls_v1.csv",
+      "name": "pas_material_nl_renovation_component_inflow_composition_controls_v1.csv",
+      "sha256": "02912aa35444624a1ec02c47a490b16905f009839a069270bc701abf53a01617",
+      "bytes": 1376,
+      "export_sha256": "02912aa35444624a1ec02c47a490b16905f009839a069270bc701abf53a01617",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_renovation_component_mass_reconciliation_controls_v1.csv",
+      "name": "pas_material_nl_renovation_component_mass_reconciliation_controls_v1.csv",
+      "sha256": "dd268144ca3729fe75f162912e4c02e91344e930d154109f2a7ad1f5364ac548",
+      "bytes": 3117,
+      "export_sha256": "dd268144ca3729fe75f162912e4c02e91344e930d154109f2a7ad1f5364ac548",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_renovation_component_replacement_controls_v1.csv",
+      "name": "pas_material_nl_renovation_component_replacement_controls_v1.csv",
+      "sha256": "eb33c72d6731911f5b71b900865a036aa41a2f4ee4dbcf5cab86d07adfd3a1d8",
+      "bytes": 2923,
+      "export_sha256": "eb33c72d6731911f5b71b900865a036aa41a2f4ee4dbcf5cab86d07adfd3a1d8",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_renovation_old_material_removal_assumption_controls_v1.csv",
+      "name": "pas_material_nl_renovation_old_material_removal_assumption_controls_v1.csv",
+      "sha256": "bfd56ffef538290fa2c631cca1596e7ae1be6f72d9037682fc6b88cf527d4854",
+      "bytes": 3455,
+      "export_sha256": "bfd56ffef538290fa2c631cca1596e7ae1be6f72d9037682fc6b88cf527d4854",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_residential_hv_outflow_controls_v1.csv",
+      "name": "pas_material_nl_residential_hv_outflow_controls_v1.csv",
+      "sha256": "0eb5d9e90b4485063d89813b8e8c6d8a5a11e633014571df126fb57ba9ea8e7c",
+      "bytes": 1425,
+      "export_sha256": "0eb5d9e90b4485063d89813b8e8c6d8a5a11e633014571df126fb57ba9ea8e7c",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_nl_stock_composition_controls_v1.csv",
+      "name": "pas_material_nl_stock_composition_controls_v1.csv",
+      "sha256": "5a932240544baffd781cb50d47176cd6e38c6be0d25b8ddb41aaf4f79486fa41",
+      "bytes": 4069,
+      "export_sha256": "5a932240544baffd781cb50d47176cd6e38c6be0d25b8ddb41aaf4f79486fa41",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_remodelling_structural_gate_v1.csv",
+      "name": "pas_material_remodelling_structural_gate_v1.csv",
+      "sha256": "efdf9b09a80c62ce53cb8be72300937dc7bb4e37a45ab7496bc33f59880719bd",
+      "bytes": 14301,
+      "export_sha256": "efdf9b09a80c62ce53cb8be72300937dc7bb4e37a45ab7496bc33f59880719bd",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_residential_reuse_allocation_controls_fr_nl_v1.csv",
+      "name": "pas_material_residential_reuse_allocation_controls_fr_nl_v1.csv",
+      "sha256": "09a425cd160a4d21ba0992c9b98686a99f76e8b7c5ff0538d0a297c092fdb19f",
+      "bytes": 5894,
+      "export_sha256": "09a425cd160a4d21ba0992c9b98686a99f76e8b7c5ff0538d0a297c092fdb19f",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_residential_reuse_allocation_controls_fr_nl_v2.csv",
+      "name": "pas_material_residential_reuse_allocation_controls_fr_nl_v2.csv",
+      "sha256": "6723c3c82bfd5d2e28a3314d4acc610810889e616b00231a712e3b71ced3f260",
+      "bytes": 13519,
+      "export_sha256": "6723c3c82bfd5d2e28a3314d4acc610810889e616b00231a712e3b71ced3f260",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/pas_material_scm_availability_controls_fr_nl_v1.csv",
+      "name": "pas_material_scm_availability_controls_fr_nl_v1.csv",
+      "sha256": "46cd006ecfd77b9bc49eb6b7df1c560725a14664125827d16b28ea4b64b2ba52",
+      "bytes": 15538,
+      "export_sha256": "afdd15e3887176162fdafb72db327c9da62b903094d7541d8e6e6eda849d1a03",
+      "adapted_for_export": true
+    },
+    {
+      "path": "01_shared_engine/data/renovation_country_totals.csv",
+      "name": "renovation_country_totals.csv",
+      "sha256": "f37c3aa7b6f9fcbf4a9043f1fe5db4b95d2756a648ea0c7311a7fe73e9d5e50e",
+      "bytes": 482,
+      "export_sha256": "f37c3aa7b6f9fcbf4a9043f1fe5db4b95d2756a648ea0c7311a7fe73e9d5e50e",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/renovation_lifestyle_requirements.csv",
+      "name": "renovation_lifestyle_requirements.csv",
+      "sha256": "ff8c615f329c9701c2694ea1626bdc0076a47aff17202ef32ed036971e497f6b",
+      "bytes": 878,
+      "export_sha256": "ff8c615f329c9701c2694ea1626bdc0076a47aff17202ef32ed036971e497f6b",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/renovation_multistage_country_controls_v2.csv",
+      "name": "renovation_multistage_country_controls_v2.csv",
+      "sha256": "fd8da068a7c61a3a6518eb5e5a3f882be0ca98f99605219298f59a79165950e9",
+      "bytes": 1265,
+      "export_sha256": "fd8da068a7c61a3a6518eb5e5a3f882be0ca98f99605219298f59a79165950e9",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/renovation_multistage_history_assumptions_v2.csv",
+      "name": "renovation_multistage_history_assumptions_v2.csv",
+      "sha256": "58d846bad3386b3ca6d153a0b2834e6d7665974d41b6d0a4f4b66a7f69b3dc4b",
+      "bytes": 808,
+      "export_sha256": "58d846bad3386b3ca6d153a0b2834e6d7665974d41b6d0a4f4b66a7f69b3dc4b",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/renovation_multistage_stockflow_controls_v2.csv",
+      "name": "renovation_multistage_stockflow_controls_v2.csv",
+      "sha256": "4d54055c90f72d76ac6811cee42af61ad76d1920b6045fa5f0d6ba26b75a265b",
+      "bytes": 836,
+      "export_sha256": "4d54055c90f72d76ac6811cee42af61ad76d1920b6045fa5f0d6ba26b75a265b",
+      "adapted_for_export": false
+    },
+    {
+      "path": "01_shared_engine/data/renovation_multistage_structural_margins_v2.csv",
+      "name": "renovation_multistage_structural_margins_v2.csv",
+      "sha256": "76554f2479d795d0271141b2e3c617ed2fed38a4189e3b97b3adef7edbeb9795",
+      "bytes": 3200,
+      "export_sha256": "76554f2479d795d0271141b2e3c617ed2fed38a4189e3b97b3adef7edbeb9795",
+      "adapted_for_export": false
+    }
+  ],
+  "archival_reference_aliases": {
+    "87a6f163e6a637f6": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "60acf21fa734a5d4": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "b9427f7016608cd5": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "72281b3b1ea027dd": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "9313412e02dc783d": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "5f6f82897d54153c": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "cb05f6a34f0e9938": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "7c274f4d77e04c51": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "1732799436b66c23": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "02831c06f563c49c": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "cff4857562ca6544": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "5d891e4685f0ff2b": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "190e5a5efd843bd9": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "2eaa923101a4a039": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "c7b004be77c22951": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "cda0fee83a3e2411": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "dc280a75f9579d7d": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "9d4204af09991180": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "206402936e68c0da": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "2ce22b39071eee4d": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "02fc88eea71eb33c": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "3aee2a09058d6312": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "0d1fef0f0c9d5767": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "d51462bec52dadb0": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "9e2b9642257daa56": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "82557b786f2fc7c9": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "ef1afd58e63dd629": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "49cc5f32aa4a038e": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "a573787323f993d8": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "2321d6a9db26b693": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "1c732628566f21d8": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "e86e128ef91bdb15": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "b3a2a4008725c45b": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "88c814788e366910": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "6060a9c909932e7e": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "e19b64458c4d53a1": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "72f2187bf24542c7": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "2a40cec4bc52e23e": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "381a8336306d7ae7": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "6dc46815f31eb74c": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "cd4391b8ab4cc19b": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "6ed02b4764841439": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "7acc3ce4f9549fb1": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "5f3a2e444ca8490b": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "8e85d08c7710f52c": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "b6dd11b8d126087c": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "17319220356f3f0a": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "b60ab11aec1aba06": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "15a25e2e260e5cb8": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "296c377ae5449ac0": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "ed3509476c199225": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "804f5d1c79dd69cf": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "495844ac2c552032": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "33d04b093009a2a9": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    },
+    "0225394641f09419": {
+      "status": "archival_reference_not_required_for_portable_execution"
+    }
+  },
+  "changes": "Private cloud links replaced with local snapshot references or opaque archival identifiers. One optional test uses configurable local fixture paths. Numerical equations and parameter values unchanged."
+}

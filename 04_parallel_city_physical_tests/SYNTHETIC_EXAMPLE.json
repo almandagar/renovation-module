@@ -1,0 +1,33 @@
+{
+  "schema": "city-physical-tests/2",
+  "model_snapshot": {
+    "version": "TEST_2", "source_ref": "SYNTHETIC_MODEL", "calibration_source_families": [],
+    "predictions": {"p": {"boundary": {
+      "country": "TEST", "city": "TEST_CITY", "population": "TEST_BUILDING", "area_basis": "CONDITIONED_ZONE_M2",
+      "period_start": "2026-01-15T00:00:00+00:00", "period_end": "2026-01-16T00:00:00+00:00",
+      "service": "SPACE_HEAT", "unit": "kWh_USEFUL_DELIVERED"}, "useful_heat_kwh": 52.8}}
+  },
+  "cases": [{
+    "id": "c", "boundary": {"country": "TEST", "city": "TEST_CITY", "population": "TEST_BUILDING",
+      "area_basis": "CONDITIONED_ZONE_M2", "period_start": "2026-01-15T00:00:00+00:00",
+      "period_end": "2026-01-16T00:00:00+00:00", "service": "SPACE_HEAT", "unit": "kWh_USEFUL_DELIVERED"},
+    "periods": [{"id": "day", "start": "2026-01-15T00:00:00+00:00",
+      "end": "2026-01-16T00:00:00+00:00", "outdoor_c": 0}],
+    "observation": {"mode": "USEFUL", "boundary": {"country": "TEST", "city": "TEST_CITY",
+      "population": "TEST_BUILDING", "area_basis": "CONDITIONED_ZONE_M2",
+      "period_start": "2026-01-15T00:00:00+00:00", "period_end": "2026-01-16T00:00:00+00:00",
+      "service": "SPACE_HEAT", "unit": "kWh_USEFUL_DELIVERED"},
+      "low_kwh": 52, "high_kwh": 54,
+      "source_ref": "SYNTHETIC_METER", "source_family_id": "SYNTHETIC_FAMILY",
+      "instrument": "SYNTHETIC_DELIVERED_HEAT_METER"},
+    "hypotheses": [{"id": "base", "conditioned_area_m2": 100,
+      "external_surfaces": [{"area_m2": 100, "u_w_m2k": 1}],
+      "ventilation_w_k": 20, "indoor_c_by_period": {"day": 20},
+      "usable_gains_w_by_period": {"day": 200}}],
+    "comfort_min_c": 18, "bounds_basis": "PREDECLARED_SYNTHETIC",
+    "model_prediction_id": "p", "transfer_scope": "TEST_ONLY",
+    "independence_reviewed": true,
+    "hypotheses_locked_at": "2026-01-01T00:00:00+00:00",
+    "observation_disclosed_at": "2026-01-02T00:00:00+00:00"
+  }]
+}
