@@ -1,0 +1,8 @@
+country,pathway,target_year,projected_occupied_dwellings,required_suitable_share,starting_suitable_dwellings,note
+France,Projected implementation,2035,33220000,0.125,1200000,A+B working share; projected occupied dwellings are a project assumption.
+France,Paris-aligned sufficiency,2035,33220000,0.25,1200000,A+B = 25% of population/households in the working share table.
+France,High-demand electrification,2035,33220000,0.1,1200000,C+D housing-capacity proxy; this is a scenario convention.
+Netherlands,Projected implementation,2035,9000000,0.125,450000,A+B working share; projected occupied dwellings are a project assumption.
+Netherlands,Paris-aligned sufficiency,2035,9000000,0.25,450000,A+B = 25% of population/households in the working share table.
+Netherlands,High-demand electrification,2035,9000000,0.1,450000,C+D housing-capacity proxy; this is a scenario convention.
+

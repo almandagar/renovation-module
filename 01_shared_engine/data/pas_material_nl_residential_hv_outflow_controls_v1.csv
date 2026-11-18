@@ -1,0 +1,7 @@
+country,year,sector,activity,flow_direction,value,unit,status,evidence_role,source_id,note
+Netherlands,2023,residential,H&V,inflow,1632,kt/y,MODELLED_NATIONAL_MASS_BALANCE,MODELLED_NATIONAL_CONTROL,NL_EIB_STRUCTURAL_MATERIAL_FLOWS_MAIN_2026,"EIB/Structural Table 7.4; H&V is broad repair/renovation bundle, not major-renovation-only."
+Netherlands,2023,residential,H&V,outflow,772,kt/y,MODELLED_NATIONAL_MASS_BALANCE,MODELLED_NATIONAL_CONTROL,NL_EIB_STRUCTURAL_MATERIAL_FLOWS_MAIN_2026,Gross residential H&V removed-material outflow; includes multiple maintenance/renovation/sustainability/transformation-related activities; not PAS major-renovation coefficient.
+Netherlands,2023,residential,demolition,outflow,1239,kt/y,MODELLED_NATIONAL_MASS_BALANCE,VALIDATION_COMPARATOR,NL_EIB_STRUCTURAL_MATERIAL_FLOWS_MAIN_2026,Separate residential demolition comparator; must not be combined into renovation supply.
+Netherlands,2023,all_B&U,H&V,inflow,4880,kt/y,MODELLED_NATIONAL_MASS_BALANCE,BOUNDARY_CONTEXT,NL_EIB_STRUCTURAL_MATERIAL_FLOWS_MAIN_2026,All residential + utility H&V.
+Netherlands,2023,all_B&U,H&V,outflow,1255,kt/y,MODELLED_NATIONAL_MASS_BALANCE,BOUNDARY_CONTEXT,NL_EIB_STRUCTURAL_MATERIAL_FLOWS_MAIN_2026,All residential + utility H&V.
+Netherlands,2023,all_B&U,demolition,outflow,3695,kt/y,MODELLED_NATIONAL_MASS_BALANCE,BOUNDARY_CONTEXT,NL_EIB_STRUCTURAL_MATERIAL_FLOWS_MAIN_2026,All residential + utility demolition.

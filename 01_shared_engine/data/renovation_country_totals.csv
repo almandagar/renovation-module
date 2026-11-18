@@ -1,0 +1,4 @@
+country,base_year,occupied_dwellings,occupied_floor_area_m2,source_id,status,note
+France,2024,31377000,2886684000,INSEE_HOUSING_2024_PROJECT_BASE,official_count_plus_area_proxy,Principal residences; floor area uses the current project average of 92 m2 per residence.
+Netherlands,2024,7958000,942535900,CBS_WOON_2024_PROJECT_BASE,official_or_survey_count_plus_type_area_proxy,Occupied dwelling denominator; floor area uses 63% single-family at 141 m2 and 37% multi-family at 80 m2.
+

@@ -1,0 +1,14 @@
+control_id,value,unit,boundary_note,source_id
+floor_area_low_multifamily,79.0,m2/dwelling,CBS 2025 multi-family average; sensitivity lower envelope,NL_CBS_DWELLING_AREA_2025
+floor_area_central_all,120.0,m2/dwelling,"CBS 2025 all-dwelling average; diagnostic central proxy, not demolition-specific",NL_CBS_DWELLING_AREA_2025
+floor_area_high_single,144.0,m2/dwelling,CBS 2025 single-family average; sensitivity upper envelope,NL_CBS_DWELLING_AREA_2025
+mi_concrete,908.0,kg/m2,Sprecher et al. residential demolition-dataset average,NL_SPRECHER_MATERIAL_INTENSITY_2022
+mi_steel,28.9,kg/m2,Sprecher et al. residential average; reinforced-concrete steel partly estimated from 3.5% demolition-waste assumption,NL_SPRECHER_MATERIAL_INTENSITY_2022
+mi_wood,103.3,kg/m2,Sprecher et al. residential demolition-dataset average,NL_SPRECHER_MATERIAL_INTENSITY_2022
+mi_glass,19.6,kg/m2,Sprecher et al. residential demolition-dataset average; most harvested component glass reported broken,NL_SPRECHER_MATERIAL_INTENSITY_2022
+floor_area_sprecher_demolition_sample_per_reported_address,97.92447257383967,m2/reported_address,"Sprecher S1 observed residential complete-demolition sample: 69,624.3 m2 / 711 reported addresses. Demolition-sample calibration diagnostic only; not a future PAS dwelling-area coefficient.",NL_SPRECHER_MATERIAL_INTENSITY_2022
+cbs_2024_housing_demolitions,11814.0,dwellings/year,"CBS 81955ENG Housing function, The Netherlands, 2024 annual demolition count. Observed calibration/control.",NL_CBS_81955ENG_STOCK_FLOW_2024
+cbs_2024_housing_initial_stock,8204049.0,dwellings,"CBS 81955ENG Housing function, The Netherlands, 2024 initial stock.",NL_CBS_81955ENG_STOCK_FLOW_2024
+cbs_2024_housing_demolition_rate,0.001440020653216479,share/year,"Derived observed 2024 demolition count / initial housing stock; calibration diagnostic, not a future PAS rate.",NL_CBS_81955ENG_STOCK_FLOW_2024
+cbs_2025_jan_apr_housing_demolitions_provisional,3246.0,dwellings/Jan-Apr,"CBS 81955ENG provisional 2025 Jan-Apr housing demolitions: 897+839+583+927=3,246. Partial-year context only.",NL_CBS_81955ENG_STOCK_FLOW_2024
+cbs_2025_jan_apr_housing_demolitions_annualised_unadjusted,9738.0,dwellings/year_equivalent,Simple 3x annualisation of provisional Jan-Apr 2025 demolition count; not seasonally adjusted and never a forecast coefficient.,NL_CBS_81955ENG_STOCK_FLOW_2024

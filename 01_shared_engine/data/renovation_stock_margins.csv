@@ -1,0 +1,20 @@
+country,base_year,dimension,category,share,average_floor_area_m2,source_id,status,note
+France,2024,building_type,single_family,0.56,112,INSEE_HOUSING_TYPE_PROXY,provisional,Working principal-residence form split; replace with exact national cross-tab.
+France,2024,building_type,multi_family,0.44,66,INSEE_HOUSING_TYPE_PROXY,provisional,Working principal-residence form split; replace with exact national cross-tab.
+France,2024,tenure,unknown,1.0,0,TENURE_PENDING,missing_dimension,Tenure distribution intentionally not invented.
+France,2024,income_group,low,0.25,0,MODEL_INCOME_QUARTILES,model_group,Equal-sized model income groups; not ANAH threshold categories.
+France,2024,income_group,lower_middle,0.25,0,MODEL_INCOME_QUARTILES,model_group,Equal-sized model income groups; not ANAH threshold categories.
+France,2024,income_group,upper_middle,0.25,0,MODEL_INCOME_QUARTILES,model_group,Equal-sized model income groups; not ANAH threshold categories.
+France,2024,income_group,high,0.25,0,MODEL_INCOME_QUARTILES,model_group,Equal-sized model income groups; not ANAH threshold categories.
+France,2024,performance_group,worst_43_percent,0.43,0,EPBD_WORST_43,policy_definition,Priority pool required by the EPBD average-reduction rule.
+France,2024,performance_group,other,0.57,0,EPBD_WORST_43,derived,Remaining occupied stock.
+Netherlands,2024,building_type,single_family,0.63,141,CBS_WOON_BUILDING_TYPE,official_or_survey,Share and indicative average area from Dutch housing-stock sources.
+Netherlands,2024,building_type,multi_family,0.37,80,CBS_WOON_BUILDING_TYPE,official_or_survey,Share and indicative average area from Dutch housing-stock sources.
+Netherlands,2024,tenure,unknown,1.0,0,TENURE_PENDING,missing_dimension,Tenure split should be loaded from CBS Woonbase/dashboard rather than inferred.
+Netherlands,2024,income_group,low,0.25,0,MODEL_INCOME_QUARTILES,model_group,Equal-sized model income groups.
+Netherlands,2024,income_group,lower_middle,0.25,0,MODEL_INCOME_QUARTILES,model_group,Equal-sized model income groups.
+Netherlands,2024,income_group,upper_middle,0.25,0,MODEL_INCOME_QUARTILES,model_group,Equal-sized model income groups.
+Netherlands,2024,income_group,high,0.25,0,MODEL_INCOME_QUARTILES,model_group,Equal-sized model income groups.
+Netherlands,2024,performance_group,worst_43_percent,0.43,0,EPBD_WORST_43,policy_definition,Priority pool required by the EPBD average-reduction rule.
+Netherlands,2024,performance_group,other,0.57,0,EPBD_WORST_43,derived,Remaining occupied stock.
+

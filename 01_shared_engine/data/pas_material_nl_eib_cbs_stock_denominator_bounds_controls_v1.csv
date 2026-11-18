@@ -1,0 +1,16 @@
+control_family,dimension,category,value,value_min,value_max,unit,evidence_role,source_id,note
+CBS_TYPE_TOTAL,dwelling_type,single_family,5211312,5211312,5211312,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_82550NED_STOCK_TYPE_AGE_AREA_2026,1 Jan 2025 broad dwelling-type stock total.
+CBS_TYPE_TOTAL,dwelling_type,multi_family,3063166,3063166,3063166,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_82550NED_STOCK_TYPE_AGE_AREA_2026,1 Jan 2025 broad dwelling-type stock total.
+CBS_AGE_CLASS,construction_period,before_1945,1498225,1498225,1498225,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,End-2024 stock; exact EIB-compatible lower age bin.
+CBS_AGE_CLASS,construction_period,1945_1960,699025,699025,699025,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,End-2024 published CBS class.
+CBS_AGE_CLASS,construction_period,1960_1970,1011400,1011400,1011400,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,End-2024 published CBS class.
+CBS_AGE_CLASS,construction_period,1970_1980,1270945,1270945,1270945,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,Boundary pool: exact year 1970 cannot be separated from 1971-1979 in current retrieved source.
+CBS_AGE_CLASS,construction_period,1980_1990,1154020,1154020,1154020,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,End-2024 published CBS class.
+CBS_AGE_CLASS,construction_period,1990_2000,945905,945905,945905,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,Boundary pool: EIB 1998 cut cannot be isolated from current retrieved CBS class.
+CBS_AGE_CLASS,construction_period,2000_2010,759100,759100,759100,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,End-2024 published CBS class.
+CBS_AGE_CLASS,construction_period,2010_present,935845,935845,935845,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,End-2024 published CBS class.
+CROSS_TABLE_RECONCILIATION,stock_total,type_table_total,8274478,8274478,8274478,dwellings,OBSERVED_STOCK_CONTROL,NL_CBS_82550NED_STOCK_TYPE_AGE_AREA_2026,Single + multi-family total.
+CROSS_TABLE_RECONCILIATION,stock_total,named_age_classes_sum,8274465,8274465,8274465,dwellings,DERIVED_RECONCILIATION_CONTROL,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,Sum of retrieved named age classes excluding published unknown/residual.
+CROSS_TABLE_RECONCILIATION,stock_total,joint_reconciliation_residual,13,13,13,dwellings,DERIVED_RECONCILIATION_CONTROL,NL_CBS_82550NED_STOCK_TYPE_AGE_AREA_2026|NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,"Type-table total minus sum of named age classes; balancing residual only, not a claimed CBS unknown-category count."
+EIB_BOUNDARY_POOL,construction_period_boundary,1970_boundary_pool,1270945,0,1270945,dwellings,MATHEMATICAL_OUTER_BOUND,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,Number from the CBS 1970-1980 class that may enter EIB 1945-1970 under a no-prorating outer bound.
+EIB_BOUNDARY_POOL,construction_period_boundary,1998_boundary_pool,945905,0,945905,dwellings,MATHEMATICAL_OUTER_BOUND,NL_CBS_86079NED_STOCK_CHARACTERISTICS_2024,Number from the CBS 1990-2000 class that may enter EIB from-1998 under a no-prorating outer bound.

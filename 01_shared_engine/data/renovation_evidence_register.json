@@ -1,0 +1,55 @@
+{
+  "version": "2026-10-20.1",
+  "numerical_permission": "EVIDENCE_ONLY_NOT_NATIONAL_COEFFICIENT",
+  "source_revalidation": "MIGRATED_SOURCE_STAGE_RECORDS_NOT_NEW_PRIMARY_SOURCE_VALIDATION",
+  "records": [
+    {
+      "evidence_id": "IWU_MODERNISATION_V12",
+      "kind": "BASELINE_METADATA",
+      "source_url": "export-reference:87a6f163e6a637f6",
+      "source_vintage": "2025 synthetic typology; parsed 2026-10-18",
+      "fact": "54 source-native modernisation fields: 30 numeric, 24 blank. Prior heat already includes modernisation.",
+      "prohibited_inference": "Not a deep-renovated area share, not eligibility, not an additional heat-saving factor."
+    },
+    {
+      "evidence_id": "BERLIN_MIXED_INCOME",
+      "kind": "PROJECT_SCOPE_CONTROL",
+      "source_url": "export-reference:60acf21fa734a5d4",
+      "source_vintage": "Historical modernisation case, source-stage 2026-10-18",
+      "fact": "Building modernisation history and household vulnerability have separate denominators; source distinguishes calculated final energy from metered heat.",
+      "prohibited_inference": "No repeat identical deep renovation from vulnerability share; no calculated-to-metered conversion."
+    },
+    {
+      "evidence_id": "HOSPITAL_PROJECT_PHASES",
+      "kind": "PROJECT_STAGE_CONTROL",
+      "source_url": "export-reference:b9427f7016608cd5",
+      "source_vintage": "2024 institution counts; 2026-2034 procurement schedule lead",
+      "fact": "Hospital institution counts are not buildings. Duisburg procurement is planned phased work with occupied service continuity.",
+      "prohibited_inference": "No national eligible area, no mean one-year renovation duration, no completed-volume claim."
+    },
+    {
+      "evidence_id": "WORKFORCE_SOURCE_SCOPE",
+      "kind": "RESOURCE_DENOMINATOR_CONTROL",
+      "source_url": "export-reference:72281b3b1ea027dd",
+      "source_vintage": "2025 register/employment observations; source-stage 2026-10-18",
+      "fact": "Registered experts, employment and vacancy duration have different boundaries from productive qualified task-hours.",
+      "prohibited_inference": "No registered-person to available-FTE conversion, no observed 2025 capacity from a 2023 deep-flow proxy."
+    },
+    {
+      "evidence_id": "REFERENCE_HEAT_NOT_ADEQUACY",
+      "kind": "ENERGY_SERVICE_CONTROL",
+      "source_url": "export-reference:9313412e02dc783d",
+      "source_vintage": "Source-stage 2026-10-18",
+      "fact": "IWU reference heat is not independently verified adequate warmth; actual expenditure and modelled heat cost differ.",
+      "prohibited_inference": "No assumed 65% service deficit, tariff, income pairing or 25 kWh/m2 target promoted to national input."
+    },
+    {
+      "evidence_id": "EXPERIMENTAL_SPINE",
+      "kind": "EXPERIMENT_POINTER",
+      "source_url": "export-reference:5f6f82897d54153c",
+      "source_vintage": "2026-10-17/18 experimental snapshots",
+      "fact": "construction_delivery_spine_experimental is held in Model v2/modules as the construction shadow.",
+      "prohibited_inference": "No synthetic workforce envelope or national target ramp imported as v3 capacity or delivered area."
+    }
+  ]
+}

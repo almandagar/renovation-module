@@ -1,0 +1,4 @@
+country,year,boundary,initial_stock,new_construction,other_additions,demolition,other_withdrawals,corrections,stock_balance,final_stock,status,source_id,note
+France,2024,main_residences,31192000,,,,,,271000,31463000,NET_ONLY_GOVERNED,FR_INSEE_EAPL_2024,"EAPL annual main-residence stock change; gross additions/losses not identified in current indexed sources."
+France,2025,main_residences,31463000,,,,,,259000,31722000,NET_ONLY_GOVERNED,FR_INSEE_EAPL_2025,"EAPL annual main-residence stock change; gross additions/losses not identified in current indexed sources."
+Netherlands,2024,total_housing_stock,8204049,69129,20290,11814,7215,30,70420,8274478,GOVERNED_GROSS_FLOW,CBS_81955ENG_20260811,"Exact annual Housing function / The Netherlands row from stored CBS 81955ENG export. Distinct from occupied-dwelling renovation denominator."

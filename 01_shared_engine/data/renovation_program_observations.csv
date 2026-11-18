@@ -1,0 +1,15 @@
+country,year,programme_or_dataset,metric,segment,value,unit,deep_renovation_compatible,source_id,status,note
+France,2024,MaPrimeRenov renovations d'ampleur,supported comprehensive renovations,all,91374,dwellings,yes_programme_definition,ANAH_MPR_T4_2024,observed,Programme count; not all national deep renovations.
+France,2024,MaPrimeRenov renovations d'ampleur,supported comprehensive renovations,owner_occupier,48400,dwellings,yes_programme_definition,ANAH_MPR_T4_2024,observed,
+France,2024,MaPrimeRenov renovations d'ampleur,supported comprehensive renovations,private_landlord,5003,dwellings,yes_programme_definition,ANAH_MPR_T4_2024,observed,
+France,2024,MaPrimeRenov renovations d'ampleur,supported comprehensive renovations,copropriete_dwelling_units,37971,dwellings,yes_programme_definition,ANAH_MPR_T4_2024,observed,"Dwelling units, not apartment-building count."
+France,2024,MaPrimeRenov owner-occupier accompanied route,beneficiary income distribution,very_modest,0.61,share,calibration_only,ANAH_MPR_T4_2024,observed,Applies to owner-occupiers in this programme route.
+France,2024,MaPrimeRenov owner-occupier accompanied route,beneficiary income distribution,modest,0.2,share,calibration_only,ANAH_MPR_T4_2024,observed,
+France,2024,MaPrimeRenov owner-occupier accompanied route,beneficiary income distribution,intermediate,0.1,share,calibration_only,ANAH_MPR_T4_2024,observed,
+France,2024,MaPrimeRenov owner-occupier accompanied route,beneficiary income distribution,higher,0.09,share,calibration_only,ANAH_MPR_T4_2024,observed,
+France,2025,EU-SILC ilc_enevh_01,people in dwellings improved in previous five years,all,0.333,share_of_people,no_any_improvement,EUROSTAT_ILC_ENEVH_01,observed_survey,Validation only; not annual deep renovation.
+Netherlands,2025,EU-SILC ilc_enevh_01,people in dwellings improved in previous five years,all,0.605,share_of_people,no_any_improvement,EUROSTAT_ILC_ENEVH_01,observed_survey,Validation only; not annual deep renovation.
+Netherlands,2025,EU-SILC ilc_enevh_01,people in dwellings improved in previous five years,at_risk_of_poverty_or_exclusion,0.453,share_of_people,no_any_improvement,EUROSTAT_ILC_ENEVH_01,observed_survey,
+Netherlands,2025,EU-SILC ilc_enevh_01,people in dwellings improved in previous five years,tenant,0.399,share_of_people,no_any_improvement,EUROSTAT_ILC_ENEVH_01,observed_survey,
+Netherlands,2021,CBS Energiesubsidies woningen 2021-2024,programme uptake by stock group,dashboard_available_not_extracted,,,mixed_measures,CBS_ENERGIESUBSIDIES_2021_2024,pending_extraction,"Use dwelling type, tenure, income, label, floor area and target-group reach when extracted."
+
